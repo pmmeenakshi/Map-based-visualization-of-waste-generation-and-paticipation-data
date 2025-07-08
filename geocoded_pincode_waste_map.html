@@ -1,0 +1,3018 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a6428a4a4efc4fde92d12e4e4f976a3c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a6428a4a4efc4fde92d12e4e4f976a3c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a6428a4a4efc4fde92d12e4e4f976a3c = L.map(
+                "map_a6428a4a4efc4fde92d12e4e4f976a3c",
+                {
+                    center: [3.924178270714286, 70.731052215],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_02dac3f15da89c6105b5dd9b2a1a2685 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a6428a4a4efc4fde92d12e4e4f976a3c);
+        
+    
+            var marker_cluster_26d14040870855b043177e14d7230356 = L.markerClusterGroup(
+                {}
+            );
+            map_a6428a4a4efc4fde92d12e4e4f976a3c.addLayer(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+            var circle_marker_c9d267799089490732a81227c60f77bb = L.circleMarker(
+                [1.3086188, 103.8511525],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.386854583772392, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_e5079aa4a1c23673f39037468409db9f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_48056ddbb441ebb7b6b6116aed2e8073 = $(`<div id="html_48056ddbb441ebb7b6b6116aed2e8073" style="width: 100.0%; height: 100.0%;">City: Delhi<br>Pincode: 110001<br>Total Waste: 14253</div>`)[0];
+                popup_e5079aa4a1c23673f39037468409db9f.setContent(html_48056ddbb441ebb7b6b6116aed2e8073);
+            
+        
+
+        circle_marker_c9d267799089490732a81227c60f77bb.bindPopup(popup_e5079aa4a1c23673f39037468409db9f)
+        ;
+
+        
+    
+    
+            var circle_marker_95311c3a25306344ed53bfa20af2f029 = L.circleMarker(
+                [1.3086188, 103.8511525],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.031217070600633, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_723df30bed2b0281de172daec957b753 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_61aeb2ec55c0d1a393ef79a097cad9d8 = $(`<div id="html_61aeb2ec55c0d1a393ef79a097cad9d8" style="width: 100.0%; height: 100.0%;">City: Delhi<br>Pincode: 110002<br>Total Waste: 13713</div>`)[0];
+                popup_723df30bed2b0281de172daec957b753.setContent(html_61aeb2ec55c0d1a393ef79a097cad9d8);
+            
+        
+
+        circle_marker_95311c3a25306344ed53bfa20af2f029.bindPopup(popup_723df30bed2b0281de172daec957b753)
+        ;
+
+        
+    
+    
+            var circle_marker_2b8928f65f40df7f49bc3eb52df5bd91 = L.circleMarker(
+                [1.3086188, 103.8511525],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.508034773445733, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_c84aa613cb8eb6e81aa5cfc967affe6f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5aad8e0338e6edf18d3bc393f27a056 = $(`<div id="html_c5aad8e0338e6edf18d3bc393f27a056" style="width: 100.0%; height: 100.0%;">City: Delhi<br>Pincode: 110003<br>Total Waste: 14437</div>`)[0];
+                popup_c84aa613cb8eb6e81aa5cfc967affe6f.setContent(html_c5aad8e0338e6edf18d3bc393f27a056);
+            
+        
+
+        circle_marker_2b8928f65f40df7f49bc3eb52df5bd91.bindPopup(popup_c84aa613cb8eb6e81aa5cfc967affe6f)
+        ;
+
+        
+    
+    
+            var circle_marker_8c556679cba75153c3a44568d3c9248f = L.circleMarker(
+                [1.3086188, 103.8511525],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.664778714436249, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_bf8a573bf0fc7539e1bed66306844c82 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0df46ea2be2510a54bd1f2eb94aa655e = $(`<div id="html_0df46ea2be2510a54bd1f2eb94aa655e" style="width: 100.0%; height: 100.0%;">City: Delhi<br>Pincode: 110004<br>Total Waste: 14675</div>`)[0];
+                popup_bf8a573bf0fc7539e1bed66306844c82.setContent(html_0df46ea2be2510a54bd1f2eb94aa655e);
+            
+        
+
+        circle_marker_8c556679cba75153c3a44568d3c9248f.bindPopup(popup_bf8a573bf0fc7539e1bed66306844c82)
+        ;
+
+        
+    
+    
+            var circle_marker_55e919b75b707aa1c74f7bfc5f96c97d = L.circleMarker(
+                [1.3086188, 103.8511525],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.620653319283456, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_09d17a1d67eccea4fd618dbb5dde26e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e908ece3e331a1f7aa7ba1492ac8ca95 = $(`<div id="html_e908ece3e331a1f7aa7ba1492ac8ca95" style="width: 100.0%; height: 100.0%;">City: Delhi<br>Pincode: 110005<br>Total Waste: 14608</div>`)[0];
+                popup_09d17a1d67eccea4fd618dbb5dde26e5.setContent(html_e908ece3e331a1f7aa7ba1492ac8ca95);
+            
+        
+
+        circle_marker_55e919b75b707aa1c74f7bfc5f96c97d.bindPopup(popup_09d17a1d67eccea4fd618dbb5dde26e5)
+        ;
+
+        
+    
+    
+            var circle_marker_fe0504e5457a38cd2c68e86f78b6ac8a = L.circleMarker(
+                [1.3086188, 103.8511525],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.30914120126449, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_49775379c04973f7de511b1c2092afd7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9dd49b8c5f8db5b0b04b7a71d402396 = $(`<div id="html_f9dd49b8c5f8db5b0b04b7a71d402396" style="width: 100.0%; height: 100.0%;">City: Delhi<br>Pincode: 110006<br>Total Waste: 14135</div>`)[0];
+                popup_49775379c04973f7de511b1c2092afd7.setContent(html_f9dd49b8c5f8db5b0b04b7a71d402396);
+            
+        
+
+        circle_marker_fe0504e5457a38cd2c68e86f78b6ac8a.bindPopup(popup_49775379c04973f7de511b1c2092afd7)
+        ;
+
+        
+    
+    
+            var circle_marker_272868e568359727a69e140d724722c5 = L.circleMarker(
+                [1.3086188, 103.8511525],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.131981032665964, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_7f739bcbf35ebdeda55e42b9a7343d57 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_243047036c1a59476fc6e43294d61f98 = $(`<div id="html_243047036c1a59476fc6e43294d61f98" style="width: 100.0%; height: 100.0%;">City: Delhi<br>Pincode: 110007<br>Total Waste: 13866</div>`)[0];
+                popup_7f739bcbf35ebdeda55e42b9a7343d57.setContent(html_243047036c1a59476fc6e43294d61f98);
+            
+        
+
+        circle_marker_272868e568359727a69e140d724722c5.bindPopup(popup_7f739bcbf35ebdeda55e42b9a7343d57)
+        ;
+
+        
+    
+    
+            var circle_marker_4c28f8d3138ca5f38f9feb394a405b08 = L.circleMarker(
+                [1.3086188, 103.8511525],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.497497365648051, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_f3a3003da18b37ee4d17e3e2da2d3072 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a2e847e14c67eb39c9079dd15e4f61dd = $(`<div id="html_a2e847e14c67eb39c9079dd15e4f61dd" style="width: 100.0%; height: 100.0%;">City: Delhi<br>Pincode: 110008<br>Total Waste: 14421</div>`)[0];
+                popup_f3a3003da18b37ee4d17e3e2da2d3072.setContent(html_a2e847e14c67eb39c9079dd15e4f61dd);
+            
+        
+
+        circle_marker_4c28f8d3138ca5f38f9feb394a405b08.bindPopup(popup_f3a3003da18b37ee4d17e3e2da2d3072)
+        ;
+
+        
+    
+    
+            var circle_marker_5407db29a6fdb7acf7ab5b580ca6bb98 = L.circleMarker(
+                [1.3086188, 103.8511525],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.616701791359326, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_84482ea15f5f7ae89fcadcb871dc44f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6c8a00212afb00b87c0270cb2f99a018 = $(`<div id="html_6c8a00212afb00b87c0270cb2f99a018" style="width: 100.0%; height: 100.0%;">City: Delhi<br>Pincode: 110009<br>Total Waste: 14602</div>`)[0];
+                popup_84482ea15f5f7ae89fcadcb871dc44f8.setContent(html_6c8a00212afb00b87c0270cb2f99a018);
+            
+        
+
+        circle_marker_5407db29a6fdb7acf7ab5b580ca6bb98.bindPopup(popup_84482ea15f5f7ae89fcadcb871dc44f8)
+        ;
+
+        
+    
+    
+            var circle_marker_bf1299cd8daf8a8dcd95f604ace70c42 = L.circleMarker(
+                [32.6691503, -85.3933105],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.728661749209696, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_de595f963ef45fc694a98ff29f0bc5f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cfb8f5b25ee697c3f2216b40b1638fb0 = $(`<div id="html_cfb8f5b25ee697c3f2216b40b1638fb0" style="width: 100.0%; height: 100.0%;">City: Delhi<br>Pincode: 110010<br>Total Waste: 14772</div>`)[0];
+                popup_de595f963ef45fc694a98ff29f0bc5f1.setContent(html_cfb8f5b25ee697c3f2216b40b1638fb0);
+            
+        
+
+        circle_marker_bf1299cd8daf8a8dcd95f604ace70c42.bindPopup(popup_de595f963ef45fc694a98ff29f0bc5f1)
+        ;
+
+        
+    
+    
+            var circle_marker_2bebea39601942bd847730346e7aaf3a = L.circleMarker(
+                [32.6691503, -85.3933105],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.608798735511064, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_a2ab6d82166bc684de94f1949957f2d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb2e7fdd306ac9f208d21b8bed1953a5 = $(`<div id="html_bb2e7fdd306ac9f208d21b8bed1953a5" style="width: 100.0%; height: 100.0%;">City: Delhi<br>Pincode: 110011<br>Total Waste: 14590</div>`)[0];
+                popup_a2ab6d82166bc684de94f1949957f2d0.setContent(html_bb2e7fdd306ac9f208d21b8bed1953a5);
+            
+        
+
+        circle_marker_2bebea39601942bd847730346e7aaf3a.bindPopup(popup_a2ab6d82166bc684de94f1949957f2d0)
+        ;
+
+        
+    
+    
+            var circle_marker_b7168b765c0f729e906cd14d8af273e1 = L.circleMarker(
+                [1.3086188, 103.8511525],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.402660695468915, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_0c3570ce352310f505b32c23291574aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d173cf58cf4b4f829ed4d5598639973 = $(`<div id="html_8d173cf58cf4b4f829ed4d5598639973" style="width: 100.0%; height: 100.0%;">City: Delhi<br>Pincode: 110012<br>Total Waste: 14277</div>`)[0];
+                popup_0c3570ce352310f505b32c23291574aa.setContent(html_8d173cf58cf4b4f829ed4d5598639973);
+            
+        
+
+        circle_marker_b7168b765c0f729e906cd14d8af273e1.bindPopup(popup_0c3570ce352310f505b32c23291574aa)
+        ;
+
+        
+    
+    
+            var circle_marker_c7e3fdd24f753bc369c9ed73bedb4fbf = L.circleMarker(
+                [1.3086188, 103.8511525],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.17413066385669, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_6bcd7bb7c21a5a259e586d2b2035f299 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a3560720fe6bbcd8fa2194df4463e50a = $(`<div id="html_a3560720fe6bbcd8fa2194df4463e50a" style="width: 100.0%; height: 100.0%;">City: Delhi<br>Pincode: 110013<br>Total Waste: 13930</div>`)[0];
+                popup_6bcd7bb7c21a5a259e586d2b2035f299.setContent(html_a3560720fe6bbcd8fa2194df4463e50a);
+            
+        
+
+        circle_marker_c7e3fdd24f753bc369c9ed73bedb4fbf.bindPopup(popup_6bcd7bb7c21a5a259e586d2b2035f299)
+        ;
+
+        
+    
+    
+            var circle_marker_20fc9b6a260a60adf8aa1f2b87983e50 = L.circleMarker(
+                [1.3086188, 103.8511525],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.365779768177028, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_d50a674e3aad26c6a6096a7da56357e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0673e121a866beb1607a7fbc924108e8 = $(`<div id="html_0673e121a866beb1607a7fbc924108e8" style="width: 100.0%; height: 100.0%;">City: Delhi<br>Pincode: 110014<br>Total Waste: 14221</div>`)[0];
+                popup_d50a674e3aad26c6a6096a7da56357e0.setContent(html_0673e121a866beb1607a7fbc924108e8);
+            
+        
+
+        circle_marker_20fc9b6a260a60adf8aa1f2b87983e50.bindPopup(popup_d50a674e3aad26c6a6096a7da56357e0)
+        ;
+
+        
+    
+    
+            var circle_marker_eb3c679d1e8af84ac9a934c661da3dc5 = L.circleMarker(
+                [1.3086188, 103.8511525],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.34799789251844, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_25c3762cc103d61fa087cc8b4f974c06 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d851a305017861346c98a9ab9587245e = $(`<div id="html_d851a305017861346c98a9ab9587245e" style="width: 100.0%; height: 100.0%;">City: Delhi<br>Pincode: 110015<br>Total Waste: 14194</div>`)[0];
+                popup_25c3762cc103d61fa087cc8b4f974c06.setContent(html_d851a305017861346c98a9ab9587245e);
+            
+        
+
+        circle_marker_eb3c679d1e8af84ac9a934c661da3dc5.bindPopup(popup_25c3762cc103d61fa087cc8b4f974c06)
+        ;
+
+        
+    
+    
+            var circle_marker_f83e703a3c7d7ac437fab98aa96dedf9 = L.circleMarker(
+                [1.3086188, 103.8511525],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.617360379346682, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_f5753927e2d06caab4300245a9a0639b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_efad9198ddfb824ea2997012944b2580 = $(`<div id="html_efad9198ddfb824ea2997012944b2580" style="width: 100.0%; height: 100.0%;">City: Delhi<br>Pincode: 110016<br>Total Waste: 14603</div>`)[0];
+                popup_f5753927e2d06caab4300245a9a0639b.setContent(html_efad9198ddfb824ea2997012944b2580);
+            
+        
+
+        circle_marker_f83e703a3c7d7ac437fab98aa96dedf9.bindPopup(popup_f5753927e2d06caab4300245a9a0639b)
+        ;
+
+        
+    
+    
+            var circle_marker_44b46cdd3efc6c7ccc419d5dfd0f7e92 = L.circleMarker(
+                [1.3086188, 103.8511525],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.147787144362487, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_40522fd9688ef9339091df3e44f525d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1cd5c5bff2a00537aa07690c19f3779 = $(`<div id="html_c1cd5c5bff2a00537aa07690c19f3779" style="width: 100.0%; height: 100.0%;">City: Delhi<br>Pincode: 110017<br>Total Waste: 13890</div>`)[0];
+                popup_40522fd9688ef9339091df3e44f525d1.setContent(html_c1cd5c5bff2a00537aa07690c19f3779);
+            
+        
+
+        circle_marker_44b46cdd3efc6c7ccc419d5dfd0f7e92.bindPopup(popup_40522fd9688ef9339091df3e44f525d1)
+        ;
+
+        
+    
+    
+            var circle_marker_cb8af24abb5701dc3d6e02aba2483701 = L.circleMarker(
+                [1.3086188, 103.8511525],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.76290832455216, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_edc4b7e7214020c0f33dccec1627b7c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_82357dc8e56d933fc08ef5a13ebdf5fa = $(`<div id="html_82357dc8e56d933fc08ef5a13ebdf5fa" style="width: 100.0%; height: 100.0%;">City: Delhi<br>Pincode: 110018<br>Total Waste: 14824</div>`)[0];
+                popup_edc4b7e7214020c0f33dccec1627b7c2.setContent(html_82357dc8e56d933fc08ef5a13ebdf5fa);
+            
+        
+
+        circle_marker_cb8af24abb5701dc3d6e02aba2483701.bindPopup(popup_edc4b7e7214020c0f33dccec1627b7c2)
+        ;
+
+        
+    
+    
+            var circle_marker_286a06dab6c73bf49629218668255869 = L.circleMarker(
+                [1.3086188, 103.8511525],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.454689146469969, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_b6f93cceec2e89cb0b3f859725737597 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_22d4a444bce2b9de8c9f813c69a0ae03 = $(`<div id="html_22d4a444bce2b9de8c9f813c69a0ae03" style="width: 100.0%; height: 100.0%;">City: Delhi<br>Pincode: 110019<br>Total Waste: 14356</div>`)[0];
+                popup_b6f93cceec2e89cb0b3f859725737597.setContent(html_22d4a444bce2b9de8c9f813c69a0ae03);
+            
+        
+
+        circle_marker_286a06dab6c73bf49629218668255869.bindPopup(popup_b6f93cceec2e89cb0b3f859725737597)
+        ;
+
+        
+    
+    
+            var circle_marker_9e6fed1c8175b6d7687025068e3e4a87 = L.circleMarker(
+                [1.3086188, 103.8511525],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.417808219178083, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_1e96c46664e9fc8dc3ca1197a9519ef7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b273680974798588c0aed4809237f217 = $(`<div id="html_b273680974798588c0aed4809237f217" style="width: 100.0%; height: 100.0%;">City: Delhi<br>Pincode: 110020<br>Total Waste: 14300</div>`)[0];
+                popup_1e96c46664e9fc8dc3ca1197a9519ef7.setContent(html_b273680974798588c0aed4809237f217);
+            
+        
+
+        circle_marker_9e6fed1c8175b6d7687025068e3e4a87.bindPopup(popup_1e96c46664e9fc8dc3ca1197a9519ef7)
+        ;
+
+        
+    
+    
+            var circle_marker_bf28e2c9fda6f3bdbdc16b31ee2f40c6 = L.circleMarker(
+                [3.1517684, 101.6968066],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.907139093782929, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_8e2e34e16b68482007fb7d1d2dc4d484 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0aca2738ef5946d3cd8b2e3c3351cc1b = $(`<div id="html_0aca2738ef5946d3cd8b2e3c3351cc1b" style="width: 100.0%; height: 100.0%;">City: Mumbai<br>Pincode: 400001<br>Total Waste: 15043</div>`)[0];
+                popup_8e2e34e16b68482007fb7d1d2dc4d484.setContent(html_0aca2738ef5946d3cd8b2e3c3351cc1b);
+            
+        
+
+        circle_marker_bf28e2c9fda6f3bdbdc16b31ee2f40c6.bindPopup(popup_8e2e34e16b68482007fb7d1d2dc4d484)
+        ;
+
+        
+    
+    
+            var circle_marker_177eb7a251960a7f5a4d4ccc23a261b2 = L.circleMarker(
+                [3.1517684, 101.6968066],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.767518440463647, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_ba5d7f0da4fe860651ee375f52e8ae85 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_01d8fc81d7ef2fa254c4ca3f9764ba9d = $(`<div id="html_01d8fc81d7ef2fa254c4ca3f9764ba9d" style="width: 100.0%; height: 100.0%;">City: Mumbai<br>Pincode: 400002<br>Total Waste: 14831</div>`)[0];
+                popup_ba5d7f0da4fe860651ee375f52e8ae85.setContent(html_01d8fc81d7ef2fa254c4ca3f9764ba9d);
+            
+        
+
+        circle_marker_177eb7a251960a7f5a4d4ccc23a261b2.bindPopup(popup_ba5d7f0da4fe860651ee375f52e8ae85)
+        ;
+
+        
+    
+    
+            var circle_marker_65aa9c218210dff35f2102b8d2bf4278 = L.circleMarker(
+                [3.1517684, 101.6968066],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.264357218124342, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_d3fc8529396086393d95f06ea384cadf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f3c838d51512cc31d7f4827d22decc8 = $(`<div id="html_4f3c838d51512cc31d7f4827d22decc8" style="width: 100.0%; height: 100.0%;">City: Mumbai<br>Pincode: 400003<br>Total Waste: 14067</div>`)[0];
+                popup_d3fc8529396086393d95f06ea384cadf.setContent(html_4f3c838d51512cc31d7f4827d22decc8);
+            
+        
+
+        circle_marker_65aa9c218210dff35f2102b8d2bf4278.bindPopup(popup_d3fc8529396086393d95f06ea384cadf)
+        ;
+
+        
+    
+    
+            var circle_marker_46b59a67e6281112fc59c61b4f0d371e = L.circleMarker(
+                [5.4168728, 100.3400144],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.742492096944153, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_54674580fb801b008af99d3af13e4948 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_19633aef1213076b4fe3276b3981783e = $(`<div id="html_19633aef1213076b4fe3276b3981783e" style="width: 100.0%; height: 100.0%;">City: Mumbai<br>Pincode: 400004<br>Total Waste: 14793</div>`)[0];
+                popup_54674580fb801b008af99d3af13e4948.setContent(html_19633aef1213076b4fe3276b3981783e);
+            
+        
+
+        circle_marker_46b59a67e6281112fc59c61b4f0d371e.bindPopup(popup_54674580fb801b008af99d3af13e4948)
+        ;
+
+        
+    
+    
+            var circle_marker_98e96da3f7e61f2659d55bac8ceb716b = L.circleMarker(
+                [3.1517684, 101.6968066],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.359193888303478, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_49cf31747438e25d822c344950d3e520 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eaac4782b55f2764853e50f46c20b625 = $(`<div id="html_eaac4782b55f2764853e50f46c20b625" style="width: 100.0%; height: 100.0%;">City: Mumbai<br>Pincode: 400005<br>Total Waste: 14211</div>`)[0];
+                popup_49cf31747438e25d822c344950d3e520.setContent(html_eaac4782b55f2764853e50f46c20b625);
+            
+        
+
+        circle_marker_98e96da3f7e61f2659d55bac8ceb716b.bindPopup(popup_49cf31747438e25d822c344950d3e520)
+        ;
+
+        
+    
+    
+            var circle_marker_e1807b591f2b29ef061b48369e81ad56 = L.circleMarker(
+                [3.1517684, 101.6968066],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.43822444678609, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_9ad05322346bbceb9e6b8b65c1fa1c66 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_52e69c1da6d748f8869059ab4992bd48 = $(`<div id="html_52e69c1da6d748f8869059ab4992bd48" style="width: 100.0%; height: 100.0%;">City: Mumbai<br>Pincode: 400006<br>Total Waste: 14331</div>`)[0];
+                popup_9ad05322346bbceb9e6b8b65c1fa1c66.setContent(html_52e69c1da6d748f8869059ab4992bd48);
+            
+        
+
+        circle_marker_e1807b591f2b29ef061b48369e81ad56.bindPopup(popup_9ad05322346bbceb9e6b8b65c1fa1c66)
+        ;
+
+        
+    
+    
+            var circle_marker_2563825e60f34ff6885821c4462487b4 = L.circleMarker(
+                [3.1517684, 101.6968066],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.335484720758693, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_cd802ce50ba331c1d7ff537c7f62be4c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6dab246df30d31b9d5b0dac62d36e710 = $(`<div id="html_6dab246df30d31b9d5b0dac62d36e710" style="width: 100.0%; height: 100.0%;">City: Mumbai<br>Pincode: 400007<br>Total Waste: 14175</div>`)[0];
+                popup_cd802ce50ba331c1d7ff537c7f62be4c.setContent(html_6dab246df30d31b9d5b0dac62d36e710);
+            
+        
+
+        circle_marker_2563825e60f34ff6885821c4462487b4.bindPopup(popup_cd802ce50ba331c1d7ff537c7f62be4c)
+        ;
+
+        
+    
+    
+            var circle_marker_a2ef1f9900f850bddabf4eeab42ca364 = L.circleMarker(
+                [3.1517684, 101.6968066],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.122760800842993, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_3b11a3946e5ebf7317f4751ec1986999 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8449ad22a1cbb128c87bbee366d5afea = $(`<div id="html_8449ad22a1cbb128c87bbee366d5afea" style="width: 100.0%; height: 100.0%;">City: Mumbai<br>Pincode: 400008<br>Total Waste: 13852</div>`)[0];
+                popup_3b11a3946e5ebf7317f4751ec1986999.setContent(html_8449ad22a1cbb128c87bbee366d5afea);
+            
+        
+
+        circle_marker_a2ef1f9900f850bddabf4eeab42ca364.bindPopup(popup_3b11a3946e5ebf7317f4751ec1986999)
+        ;
+
+        
+    
+    
+            var circle_marker_88f6831844478ec48f75ba1f897d4109 = L.circleMarker(
+                [3.1517684, 101.6968066],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.344046364594309, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_e4338ad94948baccab633ae420913ea4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d237ce48ebf613a53110a71698f2427b = $(`<div id="html_d237ce48ebf613a53110a71698f2427b" style="width: 100.0%; height: 100.0%;">City: Mumbai<br>Pincode: 400009<br>Total Waste: 14188</div>`)[0];
+                popup_e4338ad94948baccab633ae420913ea4.setContent(html_d237ce48ebf613a53110a71698f2427b);
+            
+        
+
+        circle_marker_88f6831844478ec48f75ba1f897d4109.bindPopup(popup_e4338ad94948baccab633ae420913ea4)
+        ;
+
+        
+    
+    
+            var circle_marker_4aba29704b06257bb147c65e5f185eb5 = L.circleMarker(
+                [3.1517684, 101.6968066],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.645679662802952, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_468f568a2fb439e71c2a6a09ef09bd01 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2676a7d68ed16c6964ba086f47a680ca = $(`<div id="html_2676a7d68ed16c6964ba086f47a680ca" style="width: 100.0%; height: 100.0%;">City: Mumbai<br>Pincode: 400010<br>Total Waste: 14646</div>`)[0];
+                popup_468f568a2fb439e71c2a6a09ef09bd01.setContent(html_2676a7d68ed16c6964ba086f47a680ca);
+            
+        
+
+        circle_marker_4aba29704b06257bb147c65e5f185eb5.bindPopup(popup_468f568a2fb439e71c2a6a09ef09bd01)
+        ;
+
+        
+    
+    
+            var circle_marker_bf833131716e6462d6faafa8babf28d3 = L.circleMarker(
+                [3.1517684, 101.6968066],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.211011591148578, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_d8194414af3cf9e40b5a3c99bf735723 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7076f08d58b52df562534b4233a91e5 = $(`<div id="html_a7076f08d58b52df562534b4233a91e5" style="width: 100.0%; height: 100.0%;">City: Mumbai<br>Pincode: 400011<br>Total Waste: 13986</div>`)[0];
+                popup_d8194414af3cf9e40b5a3c99bf735723.setContent(html_a7076f08d58b52df562534b4233a91e5);
+            
+        
+
+        circle_marker_bf833131716e6462d6faafa8babf28d3.bindPopup(popup_d8194414af3cf9e40b5a3c99bf735723)
+        ;
+
+        
+    
+    
+            var circle_marker_8f89c431ea7b935d3b676a0604a0d7c4 = L.circleMarker(
+                [3.1517684, 101.6968066],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.434931506849315, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_c1df48648cbb806e9545260b3feb5953 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d28206fbbe60acdeb78c68c3b988a60 = $(`<div id="html_5d28206fbbe60acdeb78c68c3b988a60" style="width: 100.0%; height: 100.0%;">City: Mumbai<br>Pincode: 400012<br>Total Waste: 14326</div>`)[0];
+                popup_c1df48648cbb806e9545260b3feb5953.setContent(html_5d28206fbbe60acdeb78c68c3b988a60);
+            
+        
+
+        circle_marker_8f89c431ea7b935d3b676a0604a0d7c4.bindPopup(popup_c1df48648cbb806e9545260b3feb5953)
+        ;
+
+        
+    
+    
+            var circle_marker_0057c3a3ed5effb52f73c4be622353a4 = L.circleMarker(
+                [3.1517684, 101.6968066],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.546232876712327, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_acb564777875ecd9ae4d7eb2d56346f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_82f170e8915a9fa715eaacadccd2fe37 = $(`<div id="html_82f170e8915a9fa715eaacadccd2fe37" style="width: 100.0%; height: 100.0%;">City: Mumbai<br>Pincode: 400013<br>Total Waste: 14495</div>`)[0];
+                popup_acb564777875ecd9ae4d7eb2d56346f9.setContent(html_82f170e8915a9fa715eaacadccd2fe37);
+            
+        
+
+        circle_marker_0057c3a3ed5effb52f73c4be622353a4.bindPopup(popup_acb564777875ecd9ae4d7eb2d56346f9)
+        ;
+
+        
+    
+    
+            var circle_marker_75ec03937edb304b40da526aca6fbc59 = L.circleMarker(
+                [3.1517684, 101.6968066],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.357876712328768, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_7b7c80981eb4a328e77e36a0cb199ac7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9193a2d8f0849616860910637bd434bc = $(`<div id="html_9193a2d8f0849616860910637bd434bc" style="width: 100.0%; height: 100.0%;">City: Mumbai<br>Pincode: 400014<br>Total Waste: 14209</div>`)[0];
+                popup_7b7c80981eb4a328e77e36a0cb199ac7.setContent(html_9193a2d8f0849616860910637bd434bc);
+            
+        
+
+        circle_marker_75ec03937edb304b40da526aca6fbc59.bindPopup(popup_7b7c80981eb4a328e77e36a0cb199ac7)
+        ;
+
+        
+    
+    
+            var circle_marker_e85220207ddfae7405c7c61f230718a6 = L.circleMarker(
+                [3.1517684, 101.6968066],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.37895152792413, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_3316cd105306a62a8a9def3a78c380e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c9056c6928dec01f734c14119c562c44 = $(`<div id="html_c9056c6928dec01f734c14119c562c44" style="width: 100.0%; height: 100.0%;">City: Mumbai<br>Pincode: 400015<br>Total Waste: 14241</div>`)[0];
+                popup_3316cd105306a62a8a9def3a78c380e9.setContent(html_c9056c6928dec01f734c14119c562c44);
+            
+        
+
+        circle_marker_e85220207ddfae7405c7c61f230718a6.bindPopup(popup_3316cd105306a62a8a9def3a78c380e9)
+        ;
+
+        
+    
+    
+            var circle_marker_7ddd30b48ccf58c098953f4569ab9323 = L.circleMarker(
+                [3.1517684, 101.6968066],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.564014752370916, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_fff21c7f92a1d3e11320eaa0f9649fb0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f0f39f373e7fb35bf4abc7d9f11f38b = $(`<div id="html_0f0f39f373e7fb35bf4abc7d9f11f38b" style="width: 100.0%; height: 100.0%;">City: Mumbai<br>Pincode: 400016<br>Total Waste: 14522</div>`)[0];
+                popup_fff21c7f92a1d3e11320eaa0f9649fb0.setContent(html_0f0f39f373e7fb35bf4abc7d9f11f38b);
+            
+        
+
+        circle_marker_7ddd30b48ccf58c098953f4569ab9323.bindPopup(popup_fff21c7f92a1d3e11320eaa0f9649fb0)
+        ;
+
+        
+    
+    
+            var circle_marker_b3c26c71e51533faec25c82fdfc26ca4 = L.circleMarker(
+                [3.1517684, 101.6968066],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.243940990516332, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_429429eaf7ada892f4bbda2a0b7482bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79b5a1aeb8f2d6b6f027993869c33843 = $(`<div id="html_79b5a1aeb8f2d6b6f027993869c33843" style="width: 100.0%; height: 100.0%;">City: Mumbai<br>Pincode: 400017<br>Total Waste: 14036</div>`)[0];
+                popup_429429eaf7ada892f4bbda2a0b7482bb.setContent(html_79b5a1aeb8f2d6b6f027993869c33843);
+            
+        
+
+        circle_marker_b3c26c71e51533faec25c82fdfc26ca4.bindPopup(popup_429429eaf7ada892f4bbda2a0b7482bb)
+        ;
+
+        
+    
+    
+            var circle_marker_2dcc0c937ad5017540906032db0e85d3 = L.circleMarker(
+                [3.1517684, 101.6968066],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.426369863013699, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_28fcd3895cab3d298bae2f8ad36cb6ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2862deba91fc3a1fb8d4364e3bc1c62a = $(`<div id="html_2862deba91fc3a1fb8d4364e3bc1c62a" style="width: 100.0%; height: 100.0%;">City: Mumbai<br>Pincode: 400018<br>Total Waste: 14313</div>`)[0];
+                popup_28fcd3895cab3d298bae2f8ad36cb6ab.setContent(html_2862deba91fc3a1fb8d4364e3bc1c62a);
+            
+        
+
+        circle_marker_2dcc0c937ad5017540906032db0e85d3.bindPopup(popup_28fcd3895cab3d298bae2f8ad36cb6ab)
+        ;
+
+        
+    
+    
+            var circle_marker_031eae251f6c10bf8e9ed86d83f935cd = L.circleMarker(
+                [3.1517684, 101.6968066],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.655558482613277, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_3552833ce3f735e356907effdbf35c41 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd9a0f5f1f0761eb9175c9ddb7b9c750 = $(`<div id="html_fd9a0f5f1f0761eb9175c9ddb7b9c750" style="width: 100.0%; height: 100.0%;">City: Mumbai<br>Pincode: 400019<br>Total Waste: 14661</div>`)[0];
+                popup_3552833ce3f735e356907effdbf35c41.setContent(html_fd9a0f5f1f0761eb9175c9ddb7b9c750);
+            
+        
+
+        circle_marker_031eae251f6c10bf8e9ed86d83f935cd.bindPopup(popup_3552833ce3f735e356907effdbf35c41)
+        ;
+
+        
+    
+    
+            var circle_marker_143bed5ace9d467fb6782e17f073e409 = L.circleMarker(
+                [3.1517684, 101.6968066],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.780690200210747, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_ac1fcd1a276909f0b5c06c944a1ebe60 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d99f786c400af7bbdae18b358e1bdf43 = $(`<div id="html_d99f786c400af7bbdae18b358e1bdf43" style="width: 100.0%; height: 100.0%;">City: Mumbai<br>Pincode: 400020<br>Total Waste: 14851</div>`)[0];
+                popup_ac1fcd1a276909f0b5c06c944a1ebe60.setContent(html_d99f786c400af7bbdae18b358e1bdf43);
+            
+        
+
+        circle_marker_143bed5ace9d467fb6782e17f073e409.bindPopup(popup_ac1fcd1a276909f0b5c06c944a1ebe60)
+        ;
+
+        
+    
+    
+            var circle_marker_4e1d4a4d039cf95400f35a868f4b6479 = L.circleMarker(
+                [18.4713774, 73.8644697],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.095758693361432, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_a90a9bdba4b43ef30a804c0f6a4c7a06 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eccdb3d1e7f6ba9a3eaee51df04524ee = $(`<div id="html_eccdb3d1e7f6ba9a3eaee51df04524ee" style="width: 100.0%; height: 100.0%;">City: Pune<br>Pincode: 411001<br>Total Waste: 13811</div>`)[0];
+                popup_a90a9bdba4b43ef30a804c0f6a4c7a06.setContent(html_eccdb3d1e7f6ba9a3eaee51df04524ee);
+            
+        
+
+        circle_marker_4e1d4a4d039cf95400f35a868f4b6479.bindPopup(popup_a90a9bdba4b43ef30a804c0f6a4c7a06)
+        ;
+
+        
+    
+    
+            var circle_marker_a87ca83e673743c35faa117fcde5c64a = L.circleMarker(
+                [18.4713774, 73.8644697],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.079293993677556, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_c86528290a36c3a56b58f1bc76812f02 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_297be6895b28c67106c0a4785ede28b0 = $(`<div id="html_297be6895b28c67106c0a4785ede28b0" style="width: 100.0%; height: 100.0%;">City: Pune<br>Pincode: 411002<br>Total Waste: 13786</div>`)[0];
+                popup_c86528290a36c3a56b58f1bc76812f02.setContent(html_297be6895b28c67106c0a4785ede28b0);
+            
+        
+
+        circle_marker_a87ca83e673743c35faa117fcde5c64a.bindPopup(popup_c86528290a36c3a56b58f1bc76812f02)
+        ;
+
+        
+    
+    
+            var circle_marker_6028f5b23d9416114fedab870acf9332 = L.circleMarker(
+                [18.4713774, 73.8644697],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.216938883034773, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_bb06a19ed15231bc5282742c62e3cf79 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a6cd4865be0090c36d5ce3c9a98504a = $(`<div id="html_2a6cd4865be0090c36d5ce3c9a98504a" style="width: 100.0%; height: 100.0%;">City: Pune<br>Pincode: 411003<br>Total Waste: 13995</div>`)[0];
+                popup_bb06a19ed15231bc5282742c62e3cf79.setContent(html_2a6cd4865be0090c36d5ce3c9a98504a);
+            
+        
+
+        circle_marker_6028f5b23d9416114fedab870acf9332.bindPopup(popup_bb06a19ed15231bc5282742c62e3cf79)
+        ;
+
+        
+    
+    
+            var circle_marker_9da846fd8286d237b3814356ff717cd1 = L.circleMarker(
+                [18.4713774, 73.8644697],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.429004214963118, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_1b7bcae931c6a2c2fc824c68a2f4f66f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_583bc9271b55ca314e4aac61c9b6157a = $(`<div id="html_583bc9271b55ca314e4aac61c9b6157a" style="width: 100.0%; height: 100.0%;">City: Pune<br>Pincode: 411004<br>Total Waste: 14317</div>`)[0];
+                popup_1b7bcae931c6a2c2fc824c68a2f4f66f.setContent(html_583bc9271b55ca314e4aac61c9b6157a);
+            
+        
+
+        circle_marker_9da846fd8286d237b3814356ff717cd1.bindPopup(popup_1b7bcae931c6a2c2fc824c68a2f4f66f)
+        ;
+
+        
+    
+    
+            var circle_marker_36b58d00a869f22b41b81cecb864f17b = L.circleMarker(
+                [18.4713774, 73.8644697],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.34141201264489, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_dfb7a91080c85fad32ad97603804106d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef8a52e56ed79ad0f209601f3b2e3673 = $(`<div id="html_ef8a52e56ed79ad0f209601f3b2e3673" style="width: 100.0%; height: 100.0%;">City: Pune<br>Pincode: 411005<br>Total Waste: 14184</div>`)[0];
+                popup_dfb7a91080c85fad32ad97603804106d.setContent(html_ef8a52e56ed79ad0f209601f3b2e3673);
+            
+        
+
+        circle_marker_36b58d00a869f22b41b81cecb864f17b.bindPopup(popup_dfb7a91080c85fad32ad97603804106d)
+        ;
+
+        
+    
+    
+            var circle_marker_10eff6699e0039ee93842f248cc4d94f = L.circleMarker(
+                [18.4713774, 73.8644697],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.295310853530031, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_923485d4259377d7780a8bb2f376c1f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b75cea0a3a75f4fd1ffe7b2da286431 = $(`<div id="html_9b75cea0a3a75f4fd1ffe7b2da286431" style="width: 100.0%; height: 100.0%;">City: Pune<br>Pincode: 411006<br>Total Waste: 14114</div>`)[0];
+                popup_923485d4259377d7780a8bb2f376c1f8.setContent(html_9b75cea0a3a75f4fd1ffe7b2da286431);
+            
+        
+
+        circle_marker_10eff6699e0039ee93842f248cc4d94f.bindPopup(popup_923485d4259377d7780a8bb2f376c1f8)
+        ;
+
+        
+    
+    
+            var circle_marker_209cf75e385536fd1da2d0876042938e = L.circleMarker(
+                [18.4713774, 73.8644697],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.42768703898841, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_b16f5de5a05109df6411dc2b699e300f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5caeab47e4e6e8e756c5ba9decc2e433 = $(`<div id="html_5caeab47e4e6e8e756c5ba9decc2e433" style="width: 100.0%; height: 100.0%;">City: Pune<br>Pincode: 411007<br>Total Waste: 14315</div>`)[0];
+                popup_b16f5de5a05109df6411dc2b699e300f.setContent(html_5caeab47e4e6e8e756c5ba9decc2e433);
+            
+        
+
+        circle_marker_209cf75e385536fd1da2d0876042938e.bindPopup(popup_b16f5de5a05109df6411dc2b699e300f)
+        ;
+
+        
+    
+    
+            var circle_marker_088e9d9b00a854b2af4e78f622c0d585 = L.circleMarker(
+                [18.4713774, 73.8644697],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.596285563751316, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_b373a0349e077f1579186431b1ff4435 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bcd838afeb0b7ef66fecfc4ce8d8a022 = $(`<div id="html_bcd838afeb0b7ef66fecfc4ce8d8a022" style="width: 100.0%; height: 100.0%;">City: Pune<br>Pincode: 411008<br>Total Waste: 14571</div>`)[0];
+                popup_b373a0349e077f1579186431b1ff4435.setContent(html_bcd838afeb0b7ef66fecfc4ce8d8a022);
+            
+        
+
+        circle_marker_088e9d9b00a854b2af4e78f622c0d585.bindPopup(popup_b373a0349e077f1579186431b1ff4435)
+        ;
+
+        
+    
+    
+            var circle_marker_bddcbfed0982bed1d9062bdf460e1b17 = L.circleMarker(
+                [18.4713774, 73.8644697],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.628556375131717, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_ece1c21149acd564d03c56d62386c5ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_25c57821f3e912a6c79d3e012c8d7537 = $(`<div id="html_25c57821f3e912a6c79d3e012c8d7537" style="width: 100.0%; height: 100.0%;">City: Pune<br>Pincode: 411009<br>Total Waste: 14620</div>`)[0];
+                popup_ece1c21149acd564d03c56d62386c5ac.setContent(html_25c57821f3e912a6c79d3e012c8d7537);
+            
+        
+
+        circle_marker_bddcbfed0982bed1d9062bdf460e1b17.bindPopup(popup_ece1c21149acd564d03c56d62386c5ac)
+        ;
+
+        
+    
+    
+            var circle_marker_32a886d6ba33f64a138221afe6a31d6d = L.circleMarker(
+                [18.4713774, 73.8644697],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.768835616438356, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_d2531b27379e8db937b48576a1ab2a0f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a46abb612909bf6323bb07366fc4eca = $(`<div id="html_7a46abb612909bf6323bb07366fc4eca" style="width: 100.0%; height: 100.0%;">City: Pune<br>Pincode: 411010<br>Total Waste: 14833</div>`)[0];
+                popup_d2531b27379e8db937b48576a1ab2a0f.setContent(html_7a46abb612909bf6323bb07366fc4eca);
+            
+        
+
+        circle_marker_32a886d6ba33f64a138221afe6a31d6d.bindPopup(popup_d2531b27379e8db937b48576a1ab2a0f)
+        ;
+
+        
+    
+    
+            var circle_marker_fb9ab6f9ee46029f68ea114bd4661d1d = L.circleMarker(
+                [18.4713774, 73.8644697],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.623287671232877, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_f618659be61a5c0fc706edf50b54688d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2088772d9aced61db366456799985833 = $(`<div id="html_2088772d9aced61db366456799985833" style="width: 100.0%; height: 100.0%;">City: Pune<br>Pincode: 411011<br>Total Waste: 14612</div>`)[0];
+                popup_f618659be61a5c0fc706edf50b54688d.setContent(html_2088772d9aced61db366456799985833);
+            
+        
+
+        circle_marker_fb9ab6f9ee46029f68ea114bd4661d1d.bindPopup(popup_f618659be61a5c0fc706edf50b54688d)
+        ;
+
+        
+    
+    
+            var circle_marker_5be9d0b412d4e0cccf39ff1736753323 = L.circleMarker(
+                [18.4713774, 73.8644697],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.513962065331928, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_d1df09568b6142c4b8d9f772da348e00 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a32e2a30aba1ccee1f2920cca5f30f05 = $(`<div id="html_a32e2a30aba1ccee1f2920cca5f30f05" style="width: 100.0%; height: 100.0%;">City: Pune<br>Pincode: 411012<br>Total Waste: 14446</div>`)[0];
+                popup_d1df09568b6142c4b8d9f772da348e00.setContent(html_a32e2a30aba1ccee1f2920cca5f30f05);
+            
+        
+
+        circle_marker_5be9d0b412d4e0cccf39ff1736753323.bindPopup(popup_d1df09568b6142c4b8d9f772da348e00)
+        ;
+
+        
+    
+    
+            var circle_marker_f36deda6576d3e2c5e4aa8c600584682 = L.circleMarker(
+                [18.4713774, 73.8644697],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.450079030558483, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_f12be1d47e37b3068fcaea5861da1e92 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc06029d2abcba17fe0284899f729ae3 = $(`<div id="html_cc06029d2abcba17fe0284899f729ae3" style="width: 100.0%; height: 100.0%;">City: Pune<br>Pincode: 411013<br>Total Waste: 14349</div>`)[0];
+                popup_f12be1d47e37b3068fcaea5861da1e92.setContent(html_cc06029d2abcba17fe0284899f729ae3);
+            
+        
+
+        circle_marker_f36deda6576d3e2c5e4aa8c600584682.bindPopup(popup_f12be1d47e37b3068fcaea5861da1e92)
+        ;
+
+        
+    
+    
+            var circle_marker_b14ac937933a18e5095ad0199a50444d = L.circleMarker(
+                [18.4713774, 73.8644697],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.539646996838778, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_6ba05846a808946b9ef7378958e01008 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be83e151a9f64164133931b677ce318c = $(`<div id="html_be83e151a9f64164133931b677ce318c" style="width: 100.0%; height: 100.0%;">City: Pune<br>Pincode: 411014<br>Total Waste: 14485</div>`)[0];
+                popup_6ba05846a808946b9ef7378958e01008.setContent(html_be83e151a9f64164133931b677ce318c);
+            
+        
+
+        circle_marker_b14ac937933a18e5095ad0199a50444d.bindPopup(popup_6ba05846a808946b9ef7378958e01008)
+        ;
+
+        
+    
+    
+            var circle_marker_41a4dbe9816a209fdded34ba045e4e22 = L.circleMarker(
+                [18.4713774, 73.8644697],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.47049525816649, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_649f2de72148e178638954a211223bf4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bfc689f5dee85dac53cecdf10e83fa49 = $(`<div id="html_bfc689f5dee85dac53cecdf10e83fa49" style="width: 100.0%; height: 100.0%;">City: Pune<br>Pincode: 411015<br>Total Waste: 14380</div>`)[0];
+                popup_649f2de72148e178638954a211223bf4.setContent(html_bfc689f5dee85dac53cecdf10e83fa49);
+            
+        
+
+        circle_marker_41a4dbe9816a209fdded34ba045e4e22.bindPopup(popup_649f2de72148e178638954a211223bf4)
+        ;
+
+        
+    
+    
+            var circle_marker_633182fe95ef4d93bcd24f397dd72645 = L.circleMarker(
+                [18.4713774, 73.8644697],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.196522655426765, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_bbb85dab808c739d2cc310bbb24a7dcf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_56e38fc2927cfef3d78e4e1b62476df5 = $(`<div id="html_56e38fc2927cfef3d78e4e1b62476df5" style="width: 100.0%; height: 100.0%;">City: Pune<br>Pincode: 411016<br>Total Waste: 13964</div>`)[0];
+                popup_bbb85dab808c739d2cc310bbb24a7dcf.setContent(html_56e38fc2927cfef3d78e4e1b62476df5);
+            
+        
+
+        circle_marker_633182fe95ef4d93bcd24f397dd72645.bindPopup(popup_bbb85dab808c739d2cc310bbb24a7dcf)
+        ;
+
+        
+    
+    
+            var circle_marker_38fccc12dd029af8eb14b0af611bf33c = L.circleMarker(
+                [18.4713774, 73.8644697],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.859720758693362, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_bda36d84bd280b3b0434a73aa2b28fd8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38225e4bfc2b8fcfb4d142c7d04bea4d = $(`<div id="html_38225e4bfc2b8fcfb4d142c7d04bea4d" style="width: 100.0%; height: 100.0%;">City: Pune<br>Pincode: 411017<br>Total Waste: 14971</div>`)[0];
+                popup_bda36d84bd280b3b0434a73aa2b28fd8.setContent(html_38225e4bfc2b8fcfb4d142c7d04bea4d);
+            
+        
+
+        circle_marker_38fccc12dd029af8eb14b0af611bf33c.bindPopup(popup_bda36d84bd280b3b0434a73aa2b28fd8)
+        ;
+
+        
+    
+    
+            var circle_marker_dde0c6aeed9430945443dcbcf284a944 = L.circleMarker(
+                [18.4713774, 73.8644697],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.443493150684931, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_06116c4bb1a256a432e3f66667a79ec7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1379533ad9cab5d0d4bfbb942dd946e = $(`<div id="html_c1379533ad9cab5d0d4bfbb942dd946e" style="width: 100.0%; height: 100.0%;">City: Pune<br>Pincode: 411018<br>Total Waste: 14339</div>`)[0];
+                popup_06116c4bb1a256a432e3f66667a79ec7.setContent(html_c1379533ad9cab5d0d4bfbb942dd946e);
+            
+        
+
+        circle_marker_dde0c6aeed9430945443dcbcf284a944.bindPopup(popup_06116c4bb1a256a432e3f66667a79ec7)
+        ;
+
+        
+    
+    
+            var circle_marker_976e3988b3cda036d8acb7eaa8a8d9c4 = L.circleMarker(
+                [18.4713774, 73.8644697],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.350632244467862, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_1a66af73d704e2d446a34ac0d9968f10 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1101f5f6b365cee523fffca2b114d59 = $(`<div id="html_c1101f5f6b365cee523fffca2b114d59" style="width: 100.0%; height: 100.0%;">City: Pune<br>Pincode: 411019<br>Total Waste: 14198</div>`)[0];
+                popup_1a66af73d704e2d446a34ac0d9968f10.setContent(html_c1101f5f6b365cee523fffca2b114d59);
+            
+        
+
+        circle_marker_976e3988b3cda036d8acb7eaa8a8d9c4.bindPopup(popup_1a66af73d704e2d446a34ac0d9968f10)
+        ;
+
+        
+    
+    
+            var circle_marker_d65b9c13248716b34f62b560b83ba5ea = L.circleMarker(
+                [18.4713774, 73.8644697],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.565990516332981, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_59eeeb12d3ffbf72cd0b5dec624343a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e60d9883b6590ec33ce52b41e97e041 = $(`<div id="html_2e60d9883b6590ec33ce52b41e97e041" style="width: 100.0%; height: 100.0%;">City: Pune<br>Pincode: 411020<br>Total Waste: 14525</div>`)[0];
+                popup_59eeeb12d3ffbf72cd0b5dec624343a9.setContent(html_2e60d9883b6590ec33ce52b41e97e041);
+            
+        
+
+        circle_marker_d65b9c13248716b34f62b560b83ba5ea.bindPopup(popup_59eeeb12d3ffbf72cd0b5dec624343a9)
+        ;
+
+        
+    
+    
+            var circle_marker_0bdda86a43615d72d4c0a00a85e27458 = L.circleMarker(
+                [-33.8214291, 151.0093088],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.146469968387777, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_32d6eb29640742998f99bdfa3fa11101 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_97a9cd5c322129b5b02761f658506323 = $(`<div id="html_97a9cd5c322129b5b02761f658506323" style="width: 100.0%; height: 100.0%;">City: Hyderabad<br>Pincode: 500001<br>Total Waste: 13888</div>`)[0];
+                popup_32d6eb29640742998f99bdfa3fa11101.setContent(html_97a9cd5c322129b5b02761f658506323);
+            
+        
+
+        circle_marker_0bdda86a43615d72d4c0a00a85e27458.bindPopup(popup_32d6eb29640742998f99bdfa3fa11101)
+        ;
+
+        
+    
+    
+            var circle_marker_bc7048ebbe3539cb56ab2ce856880546 = L.circleMarker(
+                [-33.8214291, 151.0093088],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.52186512118019, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_b031759ab7ef9bb99de3864cd6af3a99 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_89c9b0dd86957245d7fcbf0c6b09104a = $(`<div id="html_89c9b0dd86957245d7fcbf0c6b09104a" style="width: 100.0%; height: 100.0%;">City: Hyderabad<br>Pincode: 500002<br>Total Waste: 14458</div>`)[0];
+                popup_b031759ab7ef9bb99de3864cd6af3a99.setContent(html_89c9b0dd86957245d7fcbf0c6b09104a);
+            
+        
+
+        circle_marker_bc7048ebbe3539cb56ab2ce856880546.bindPopup(popup_b031759ab7ef9bb99de3864cd6af3a99)
+        ;
+
+        
+    
+    
+            var circle_marker_3e2c115662418f3200eda03a139ef19d = L.circleMarker(
+                [-33.8214291, 151.0093088],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.486301369863014, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_69ebae726aabae63b9ec42393cf6c149 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5762cdafe7d57630c0d6b3a0683ef8c2 = $(`<div id="html_5762cdafe7d57630c0d6b3a0683ef8c2" style="width: 100.0%; height: 100.0%;">City: Hyderabad<br>Pincode: 500003<br>Total Waste: 14404</div>`)[0];
+                popup_69ebae726aabae63b9ec42393cf6c149.setContent(html_5762cdafe7d57630c0d6b3a0683ef8c2);
+            
+        
+
+        circle_marker_3e2c115662418f3200eda03a139ef19d.bindPopup(popup_69ebae726aabae63b9ec42393cf6c149)
+        ;
+
+        
+    
+    
+            var circle_marker_11eeebd4b8bfee251ab21b5f6330fa2a = L.circleMarker(
+                [-33.8214291, 151.0093088],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.344046364594309, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_e9c4f014668b87c9ce84e96073804828 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_07994804df88118d0504fc77aa9d274f = $(`<div id="html_07994804df88118d0504fc77aa9d274f" style="width: 100.0%; height: 100.0%;">City: Hyderabad<br>Pincode: 500004<br>Total Waste: 14188</div>`)[0];
+                popup_e9c4f014668b87c9ce84e96073804828.setContent(html_07994804df88118d0504fc77aa9d274f);
+            
+        
+
+        circle_marker_11eeebd4b8bfee251ab21b5f6330fa2a.bindPopup(popup_e9c4f014668b87c9ce84e96073804828)
+        ;
+
+        
+    
+    
+            var circle_marker_2f97fe6d9e80ee88d3a3cf6c07e5c4eb = L.circleMarker(
+                [-33.8214291, 151.0093088],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.100368809272918, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_4f97509fb64cb1b5000eeecaa5aa2653 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ba2912a36a114ff7a55b4dc7843f041 = $(`<div id="html_0ba2912a36a114ff7a55b4dc7843f041" style="width: 100.0%; height: 100.0%;">City: Hyderabad<br>Pincode: 500005<br>Total Waste: 13818</div>`)[0];
+                popup_4f97509fb64cb1b5000eeecaa5aa2653.setContent(html_0ba2912a36a114ff7a55b4dc7843f041);
+            
+        
+
+        circle_marker_2f97fe6d9e80ee88d3a3cf6c07e5c4eb.bindPopup(popup_4f97509fb64cb1b5000eeecaa5aa2653)
+        ;
+
+        
+    
+    
+            var circle_marker_d76a60fb28349e9f3c703ae803defe96 = L.circleMarker(
+                [-33.8214291, 151.0093088],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.607481559536353, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_f1c8b4ec5b5f49103ee4e21a42523d5a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb6e7de867ff1a7bc152c7c74270ab07 = $(`<div id="html_eb6e7de867ff1a7bc152c7c74270ab07" style="width: 100.0%; height: 100.0%;">City: Hyderabad<br>Pincode: 500006<br>Total Waste: 14588</div>`)[0];
+                popup_f1c8b4ec5b5f49103ee4e21a42523d5a.setContent(html_eb6e7de867ff1a7bc152c7c74270ab07);
+            
+        
+
+        circle_marker_d76a60fb28349e9f3c703ae803defe96.bindPopup(popup_f1c8b4ec5b5f49103ee4e21a42523d5a)
+        ;
+
+        
+    
+    
+            var circle_marker_fe3a8d1435e893a536264000de8c9cf4 = L.circleMarker(
+                [-33.8214291, 151.0093088],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.511986301369863, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_2f77f7bcba16bf63747580e1fdad167d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4faba035b955b0899b85c19b4db71d1e = $(`<div id="html_4faba035b955b0899b85c19b4db71d1e" style="width: 100.0%; height: 100.0%;">City: Hyderabad<br>Pincode: 500007<br>Total Waste: 14443</div>`)[0];
+                popup_2f77f7bcba16bf63747580e1fdad167d.setContent(html_4faba035b955b0899b85c19b4db71d1e);
+            
+        
+
+        circle_marker_fe3a8d1435e893a536264000de8c9cf4.bindPopup(popup_2f77f7bcba16bf63747580e1fdad167d)
+        ;
+
+        
+    
+    
+            var circle_marker_435a07f37563bd35fd5ba2770c539b4c = L.circleMarker(
+                [-33.8214291, 151.0093088],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.55281875658588, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_e102eebfa42af56527ddd293362d5a65 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a005b656b10eb98127e05852104f5e1 = $(`<div id="html_6a005b656b10eb98127e05852104f5e1" style="width: 100.0%; height: 100.0%;">City: Hyderabad<br>Pincode: 500008<br>Total Waste: 14505</div>`)[0];
+                popup_e102eebfa42af56527ddd293362d5a65.setContent(html_6a005b656b10eb98127e05852104f5e1);
+            
+        
+
+        circle_marker_435a07f37563bd35fd5ba2770c539b4c.bindPopup(popup_e102eebfa42af56527ddd293362d5a65)
+        ;
+
+        
+    
+    
+            var circle_marker_8a59273551b97d0ac0ce3c87c299aca3 = L.circleMarker(
+                [-33.8214291, 151.0093088],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.437565858798735, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_6ca77629691b73bd6edcc2017836b654 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_50a88b68b1717119afb8820c7bd6538f = $(`<div id="html_50a88b68b1717119afb8820c7bd6538f" style="width: 100.0%; height: 100.0%;">City: Hyderabad<br>Pincode: 500009<br>Total Waste: 14330</div>`)[0];
+                popup_6ca77629691b73bd6edcc2017836b654.setContent(html_50a88b68b1717119afb8820c7bd6538f);
+            
+        
+
+        circle_marker_8a59273551b97d0ac0ce3c87c299aca3.bindPopup(popup_6ca77629691b73bd6edcc2017836b654)
+        ;
+
+        
+    
+    
+            var circle_marker_cd6d03ba68c209504b037673267c0cf3 = L.circleMarker(
+                [-33.8214291, 151.0093088],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.367096944151738, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_8c75a1f8f26534a1987c8ab07bd4b175 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e3912816d26fa70839283e28a61f4b9 = $(`<div id="html_3e3912816d26fa70839283e28a61f4b9" style="width: 100.0%; height: 100.0%;">City: Hyderabad<br>Pincode: 500010<br>Total Waste: 14223</div>`)[0];
+                popup_8c75a1f8f26534a1987c8ab07bd4b175.setContent(html_3e3912816d26fa70839283e28a61f4b9);
+            
+        
+
+        circle_marker_cd6d03ba68c209504b037673267c0cf3.bindPopup(popup_8c75a1f8f26534a1987c8ab07bd4b175)
+        ;
+
+        
+    
+    
+            var circle_marker_89ba97fe782f361900a611e6ef6a6c65 = L.circleMarker(
+                [-33.8214291, 151.0093088],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.70758693361433, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_a8033cae10b791337169898e253d487e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1fc1b231da85d9fa26212939378f6811 = $(`<div id="html_1fc1b231da85d9fa26212939378f6811" style="width: 100.0%; height: 100.0%;">City: Hyderabad<br>Pincode: 500011<br>Total Waste: 14740</div>`)[0];
+                popup_a8033cae10b791337169898e253d487e.setContent(html_1fc1b231da85d9fa26212939378f6811);
+            
+        
+
+        circle_marker_89ba97fe782f361900a611e6ef6a6c65.bindPopup(popup_a8033cae10b791337169898e253d487e)
+        ;
+
+        
+    
+    
+            var circle_marker_2ef8a4cd3a7e42bd52f10bd9d00dbba6 = L.circleMarker(
+                [-33.8214291, 151.0093088],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.67663329820864, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_5b18f0355d952a05d13cae422e845201 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d19ed3d0a5d3828e78c3478421e3c122 = $(`<div id="html_d19ed3d0a5d3828e78c3478421e3c122" style="width: 100.0%; height: 100.0%;">City: Hyderabad<br>Pincode: 500012<br>Total Waste: 14693</div>`)[0];
+                popup_5b18f0355d952a05d13cae422e845201.setContent(html_d19ed3d0a5d3828e78c3478421e3c122);
+            
+        
+
+        circle_marker_2ef8a4cd3a7e42bd52f10bd9d00dbba6.bindPopup(popup_5b18f0355d952a05d13cae422e845201)
+        ;
+
+        
+    
+    
+            var circle_marker_029d1af5319cb483072a675fd15f5d31 = L.circleMarker(
+                [-33.8214291, 151.0093088],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.66741306638567, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_317a73062d438caf751bebc4f6d8355f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e883f22c4b9873ac549bb941e2056f4 = $(`<div id="html_8e883f22c4b9873ac549bb941e2056f4" style="width: 100.0%; height: 100.0%;">City: Hyderabad<br>Pincode: 500013<br>Total Waste: 14679</div>`)[0];
+                popup_317a73062d438caf751bebc4f6d8355f.setContent(html_8e883f22c4b9873ac549bb941e2056f4);
+            
+        
+
+        circle_marker_029d1af5319cb483072a675fd15f5d31.bindPopup(popup_317a73062d438caf751bebc4f6d8355f)
+        ;
+
+        
+    
+    
+            var circle_marker_6bc4401bb44519d8e09f8792599085d0 = L.circleMarker(
+                [-33.8214291, 151.0093088],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.245916754478397, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_3faa496104c8902fa9da37401ed5ef0d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_506a8ef17e2b289ccaf352dec040964d = $(`<div id="html_506a8ef17e2b289ccaf352dec040964d" style="width: 100.0%; height: 100.0%;">City: Hyderabad<br>Pincode: 500014<br>Total Waste: 14039</div>`)[0];
+                popup_3faa496104c8902fa9da37401ed5ef0d.setContent(html_506a8ef17e2b289ccaf352dec040964d);
+            
+        
+
+        circle_marker_6bc4401bb44519d8e09f8792599085d0.bindPopup(popup_3faa496104c8902fa9da37401ed5ef0d)
+        ;
+
+        
+    
+    
+            var circle_marker_4bf81f8736ebd6ac8ddd624aa1d3aa1f = L.circleMarker(
+                [-33.8214291, 151.0093088],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.700342465753424, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_dd1aad964cc30938773b0ff2c9bda00d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_789ae989db82b828c5d11543fb74013f = $(`<div id="html_789ae989db82b828c5d11543fb74013f" style="width: 100.0%; height: 100.0%;">City: Hyderabad<br>Pincode: 500015<br>Total Waste: 14729</div>`)[0];
+                popup_dd1aad964cc30938773b0ff2c9bda00d.setContent(html_789ae989db82b828c5d11543fb74013f);
+            
+        
+
+        circle_marker_4bf81f8736ebd6ac8ddd624aa1d3aa1f.bindPopup(popup_dd1aad964cc30938773b0ff2c9bda00d)
+        ;
+
+        
+    
+    
+            var circle_marker_2a781aa41ab3a3c516161d5b74af53cc = L.circleMarker(
+                [-33.8214291, 151.0093088],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.502107481559536, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_e0e94e353e30060c66a91f497a292078 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_48e2564b2369d646b9cd410fa5056256 = $(`<div id="html_48e2564b2369d646b9cd410fa5056256" style="width: 100.0%; height: 100.0%;">City: Hyderabad<br>Pincode: 500016<br>Total Waste: 14428</div>`)[0];
+                popup_e0e94e353e30060c66a91f497a292078.setContent(html_48e2564b2369d646b9cd410fa5056256);
+            
+        
+
+        circle_marker_2a781aa41ab3a3c516161d5b74af53cc.bindPopup(popup_e0e94e353e30060c66a91f497a292078)
+        ;
+
+        
+    
+    
+            var circle_marker_7d01b3ad1f6f0ebba708348583ea9996 = L.circleMarker(
+                [-33.8214291, 151.0093088],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.089831401475237, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_5630a925495b6c9c79980a2b5a1bd4d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a8f60c63f46dc9422f3f65012c15256 = $(`<div id="html_6a8f60c63f46dc9422f3f65012c15256" style="width: 100.0%; height: 100.0%;">City: Hyderabad<br>Pincode: 500017<br>Total Waste: 13802</div>`)[0];
+                popup_5630a925495b6c9c79980a2b5a1bd4d1.setContent(html_6a8f60c63f46dc9422f3f65012c15256);
+            
+        
+
+        circle_marker_7d01b3ad1f6f0ebba708348583ea9996.bindPopup(popup_5630a925495b6c9c79980a2b5a1bd4d1)
+        ;
+
+        
+    
+    
+            var circle_marker_9a08d3171b1c9f6a5d098be5e99604ab = L.circleMarker(
+                [-33.8214291, 151.0093088],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.281480505795574, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_d9d2e25c014798776d0081bfcf343acf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c244ef1f6ad09a0fe749a2f46c1e963 = $(`<div id="html_0c244ef1f6ad09a0fe749a2f46c1e963" style="width: 100.0%; height: 100.0%;">City: Hyderabad<br>Pincode: 500018<br>Total Waste: 14093</div>`)[0];
+                popup_d9d2e25c014798776d0081bfcf343acf.setContent(html_0c244ef1f6ad09a0fe749a2f46c1e963);
+            
+        
+
+        circle_marker_9a08d3171b1c9f6a5d098be5e99604ab.bindPopup(popup_d9d2e25c014798776d0081bfcf343acf)
+        ;
+
+        
+    
+    
+            var circle_marker_fa9ba1cae18e9cc28c0c459d7d92bb2d = L.circleMarker(
+                [-33.8214291, 151.0093088],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.552160168598524, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_e16c5a43351a8664c93d8e04478a67e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b2f9d58e21ec29434cccb79b99c2e779 = $(`<div id="html_b2f9d58e21ec29434cccb79b99c2e779" style="width: 100.0%; height: 100.0%;">City: Hyderabad<br>Pincode: 500019<br>Total Waste: 14504</div>`)[0];
+                popup_e16c5a43351a8664c93d8e04478a67e8.setContent(html_b2f9d58e21ec29434cccb79b99c2e779);
+            
+        
+
+        circle_marker_fa9ba1cae18e9cc28c0c459d7d92bb2d.bindPopup(popup_e16c5a43351a8664c93d8e04478a67e8)
+        ;
+
+        
+    
+    
+            var circle_marker_2323b9a85225bb39ae00ad0b73e6b9f7 = L.circleMarker(
+                [-33.8214291, 151.0093088],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.654899894625922, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_895c4e4adb6d0405679ebbdc6a102109 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_276049856f4ea932a9915e6988be53f9 = $(`<div id="html_276049856f4ea932a9915e6988be53f9" style="width: 100.0%; height: 100.0%;">City: Hyderabad<br>Pincode: 500020<br>Total Waste: 14660</div>`)[0];
+                popup_895c4e4adb6d0405679ebbdc6a102109.setContent(html_276049856f4ea932a9915e6988be53f9);
+            
+        
+
+        circle_marker_2323b9a85225bb39ae00ad0b73e6b9f7.bindPopup(popup_895c4e4adb6d0405679ebbdc6a102109)
+        ;
+
+        
+    
+    
+            var circle_marker_4c0de39b71d2ec2bbf081f6bdc378feb = L.circleMarker(
+                [21.1916964, -101.6604407],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.701659641728135, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_08a9bbda97f747372e15608698a2c06b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b93f570478ece0403ca0d0c39f57123 = $(`<div id="html_3b93f570478ece0403ca0d0c39f57123" style="width: 100.0%; height: 100.0%;">City: Bangalore<br>Pincode: 560001<br>Total Waste: 14731</div>`)[0];
+                popup_08a9bbda97f747372e15608698a2c06b.setContent(html_3b93f570478ece0403ca0d0c39f57123);
+            
+        
+
+        circle_marker_4c0de39b71d2ec2bbf081f6bdc378feb.bindPopup(popup_08a9bbda97f747372e15608698a2c06b)
+        ;
+
+        
+    
+    
+            var circle_marker_96c74fd10c956495028abb05b258d6df = L.circleMarker(
+                [21.1916964, -101.6604407],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.471812434141201, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_dc20758e01119d8edac5fe7a9bedb8f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76b3f39c79bd6358fb2e676c97198739 = $(`<div id="html_76b3f39c79bd6358fb2e676c97198739" style="width: 100.0%; height: 100.0%;">City: Bangalore<br>Pincode: 560002<br>Total Waste: 14382</div>`)[0];
+                popup_dc20758e01119d8edac5fe7a9bedb8f7.setContent(html_76b3f39c79bd6358fb2e676c97198739);
+            
+        
+
+        circle_marker_96c74fd10c956495028abb05b258d6df.bindPopup(popup_dc20758e01119d8edac5fe7a9bedb8f7)
+        ;
+
+        
+    
+    
+            var circle_marker_c42d14f7e74584ac0fc5398924664b32 = L.circleMarker(
+                [21.1916964, -101.6604407],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.712855637513172, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_ce0c53859cd1f85b62ed53fd5e61892a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1da64cf8bc6ff31923579f498be204a2 = $(`<div id="html_1da64cf8bc6ff31923579f498be204a2" style="width: 100.0%; height: 100.0%;">City: Bangalore<br>Pincode: 560003<br>Total Waste: 14748</div>`)[0];
+                popup_ce0c53859cd1f85b62ed53fd5e61892a.setContent(html_1da64cf8bc6ff31923579f498be204a2);
+            
+        
+
+        circle_marker_c42d14f7e74584ac0fc5398924664b32.bindPopup(popup_ce0c53859cd1f85b62ed53fd5e61892a)
+        ;
+
+        
+    
+    
+            var circle_marker_ab2f8363445658bb9873c387b4096e29 = L.circleMarker(
+                [21.1916964, -101.6604407],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.591675447839831, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_63dbb9851c86d321dd5199803da4c85e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_929ffd9b0dafd90152897d571fb71dac = $(`<div id="html_929ffd9b0dafd90152897d571fb71dac" style="width: 100.0%; height: 100.0%;">City: Bangalore<br>Pincode: 560004<br>Total Waste: 14564</div>`)[0];
+                popup_63dbb9851c86d321dd5199803da4c85e.setContent(html_929ffd9b0dafd90152897d571fb71dac);
+            
+        
+
+        circle_marker_ab2f8363445658bb9873c387b4096e29.bindPopup(popup_63dbb9851c86d321dd5199803da4c85e)
+        ;
+
+        
+    
+    
+            var circle_marker_072bcdf1464aef64dce4ba2b19d28812 = L.circleMarker(
+                [21.1916964, -101.6604407],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.384878819810327, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_e52e3d3ae78eaf96046b09512f8ab732 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_755b84c641af09c8fe723f56bf60d081 = $(`<div id="html_755b84c641af09c8fe723f56bf60d081" style="width: 100.0%; height: 100.0%;">City: Bangalore<br>Pincode: 560005<br>Total Waste: 14250</div>`)[0];
+                popup_e52e3d3ae78eaf96046b09512f8ab732.setContent(html_755b84c641af09c8fe723f56bf60d081);
+            
+        
+
+        circle_marker_072bcdf1464aef64dce4ba2b19d28812.bindPopup(popup_e52e3d3ae78eaf96046b09512f8ab732)
+        ;
+
+        
+    
+    
+            var circle_marker_e322b57d56c398191eb84e8e431430a4 = L.circleMarker(
+                [21.1916964, -101.6604407],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.577845100105375, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_4da8661630f68f0a93c49eb610a449f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_996413fc1afcefd5bbb9296261b5eca5 = $(`<div id="html_996413fc1afcefd5bbb9296261b5eca5" style="width: 100.0%; height: 100.0%;">City: Bangalore<br>Pincode: 560006<br>Total Waste: 14543</div>`)[0];
+                popup_4da8661630f68f0a93c49eb610a449f8.setContent(html_996413fc1afcefd5bbb9296261b5eca5);
+            
+        
+
+        circle_marker_e322b57d56c398191eb84e8e431430a4.bindPopup(popup_4da8661630f68f0a93c49eb610a449f8)
+        ;
+
+        
+    
+    
+            var circle_marker_27400089ef87061127ac56a7ecf860c0 = L.circleMarker(
+                [21.1916964, -101.6604407],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.28477344573235, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_e9a56b812087ec2ccde7e3b8e6c96e20 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_174e8e47d500509112e4bc5ed1f2237e = $(`<div id="html_174e8e47d500509112e4bc5ed1f2237e" style="width: 100.0%; height: 100.0%;">City: Bangalore<br>Pincode: 560007<br>Total Waste: 14098</div>`)[0];
+                popup_e9a56b812087ec2ccde7e3b8e6c96e20.setContent(html_174e8e47d500509112e4bc5ed1f2237e);
+            
+        
+
+        circle_marker_27400089ef87061127ac56a7ecf860c0.bindPopup(popup_e9a56b812087ec2ccde7e3b8e6c96e20)
+        ;
+
+        
+    
+    
+            var circle_marker_efadff990a3b1374ffea9ea42c4cdf91 = L.circleMarker(
+                [21.1916964, -101.6604407],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.276211801896734, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_6f345708b6d7158b8ee695f675dcfa60 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d6a223ec4a48c4bbe5a68c8d206dbacb = $(`<div id="html_d6a223ec4a48c4bbe5a68c8d206dbacb" style="width: 100.0%; height: 100.0%;">City: Bangalore<br>Pincode: 560008<br>Total Waste: 14085</div>`)[0];
+                popup_6f345708b6d7158b8ee695f675dcfa60.setContent(html_d6a223ec4a48c4bbe5a68c8d206dbacb);
+            
+        
+
+        circle_marker_efadff990a3b1374ffea9ea42c4cdf91.bindPopup(popup_6f345708b6d7158b8ee695f675dcfa60)
+        ;
+
+        
+    
+    
+            var circle_marker_c6962047ce9eebbc736670ce6d169230 = L.circleMarker(
+                [21.1916964, -101.6604407],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.67531612223393, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_f4923da9fa36cb30228828c768625ef4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fea00ba211435a5d693bcfa3c13e9b6c = $(`<div id="html_fea00ba211435a5d693bcfa3c13e9b6c" style="width: 100.0%; height: 100.0%;">City: Bangalore<br>Pincode: 560009<br>Total Waste: 14691</div>`)[0];
+                popup_f4923da9fa36cb30228828c768625ef4.setContent(html_fea00ba211435a5d693bcfa3c13e9b6c);
+            
+        
+
+        circle_marker_c6962047ce9eebbc736670ce6d169230.bindPopup(popup_f4923da9fa36cb30228828c768625ef4)
+        ;
+
+        
+    
+    
+            var circle_marker_c851e47e840ec8f330a2d8364a2d74a0 = L.circleMarker(
+                [21.1916964, -101.6604407],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.604847207586934, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_d6f37a4679fe56505ca99e3814f0c288 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4df5e45057633e4dc2c4bfec18f10d0a = $(`<div id="html_4df5e45057633e4dc2c4bfec18f10d0a" style="width: 100.0%; height: 100.0%;">City: Bangalore<br>Pincode: 560010<br>Total Waste: 14584</div>`)[0];
+                popup_d6f37a4679fe56505ca99e3814f0c288.setContent(html_4df5e45057633e4dc2c4bfec18f10d0a);
+            
+        
+
+        circle_marker_c851e47e840ec8f330a2d8364a2d74a0.bindPopup(popup_d6f37a4679fe56505ca99e3814f0c288)
+        ;
+
+        
+    
+    
+            var circle_marker_c15ae4c1ba8fa4814d82fedbcb0f7de0 = L.circleMarker(
+                [21.1916964, -101.6604407],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.635142255005269, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_47c363b4b8c3b127d85b4eeeaeff787f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d95b82f973d0fcfcc18d399c805fef8 = $(`<div id="html_9d95b82f973d0fcfcc18d399c805fef8" style="width: 100.0%; height: 100.0%;">City: Bangalore<br>Pincode: 560011<br>Total Waste: 14630</div>`)[0];
+                popup_47c363b4b8c3b127d85b4eeeaeff787f.setContent(html_9d95b82f973d0fcfcc18d399c805fef8);
+            
+        
+
+        circle_marker_c15ae4c1ba8fa4814d82fedbcb0f7de0.bindPopup(popup_47c363b4b8c3b127d85b4eeeaeff787f)
+        ;
+
+        
+    
+    
+            var circle_marker_8e563ac88d2957c1879b8f6f8368130d = L.circleMarker(
+                [21.1916964, -101.6604407],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.360511064278187, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_3810cd25e08a4aea15b49277b1fa14c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a5a076e85d1e575c8c363737f3541ba9 = $(`<div id="html_a5a076e85d1e575c8c363737f3541ba9" style="width: 100.0%; height: 100.0%;">City: Bangalore<br>Pincode: 560012<br>Total Waste: 14213</div>`)[0];
+                popup_3810cd25e08a4aea15b49277b1fa14c9.setContent(html_a5a076e85d1e575c8c363737f3541ba9);
+            
+        
+
+        circle_marker_8e563ac88d2957c1879b8f6f8368130d.bindPopup(popup_3810cd25e08a4aea15b49277b1fa14c9)
+        ;
+
+        
+    
+    
+            var circle_marker_192acbc5e1dca1cc3cdb4797b96372b3 = L.circleMarker(
+                [21.1916964, -101.6604407],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.394099051633297, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_144f90fe314ed86651a03a4d910d91df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a477699b04f8f35cdaf406d2c4dc2d0 = $(`<div id="html_5a477699b04f8f35cdaf406d2c4dc2d0" style="width: 100.0%; height: 100.0%;">City: Bangalore<br>Pincode: 560013<br>Total Waste: 14264</div>`)[0];
+                popup_144f90fe314ed86651a03a4d910d91df.setContent(html_5a477699b04f8f35cdaf406d2c4dc2d0);
+            
+        
+
+        circle_marker_192acbc5e1dca1cc3cdb4797b96372b3.bindPopup(popup_144f90fe314ed86651a03a4d910d91df)
+        ;
+
+        
+    
+    
+            var circle_marker_a46b61f5eae123e4658af69dce314c52 = L.circleMarker(
+                [21.1916964, -101.6604407],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.498155953635406, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_ccb168f146b4943f0b7df5f8561f65c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ee3e9d69eebddafb363bed233b29817 = $(`<div id="html_6ee3e9d69eebddafb363bed233b29817" style="width: 100.0%; height: 100.0%;">City: Bangalore<br>Pincode: 560014<br>Total Waste: 14422</div>`)[0];
+                popup_ccb168f146b4943f0b7df5f8561f65c5.setContent(html_6ee3e9d69eebddafb363bed233b29817);
+            
+        
+
+        circle_marker_a46b61f5eae123e4658af69dce314c52.bindPopup(popup_ccb168f146b4943f0b7df5f8561f65c5)
+        ;
+
+        
+    
+    
+            var circle_marker_77af4779ce3014feb3011aa513245cb8 = L.circleMarker(
+                [21.1916964, -101.6604407],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.498155953635406, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_8f3bb2b9c5f911bf33adb926241b3200 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38f2540aadf8d38a2c14e6d2c4a076b0 = $(`<div id="html_38f2540aadf8d38a2c14e6d2c4a076b0" style="width: 100.0%; height: 100.0%;">City: Bangalore<br>Pincode: 560015<br>Total Waste: 14422</div>`)[0];
+                popup_8f3bb2b9c5f911bf33adb926241b3200.setContent(html_38f2540aadf8d38a2c14e6d2c4a076b0);
+            
+        
+
+        circle_marker_77af4779ce3014feb3011aa513245cb8.bindPopup(popup_8f3bb2b9c5f911bf33adb926241b3200)
+        ;
+
+        
+    
+    
+            var circle_marker_c3c77de7e325d692e70508a1c7455264 = L.circleMarker(
+                [21.1916964, -101.6604407],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.220231822971549, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_0335f778e1951d22c7c329b1042b70e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d41606b8c0d985dfbb9d1868671f6b9 = $(`<div id="html_9d41606b8c0d985dfbb9d1868671f6b9" style="width: 100.0%; height: 100.0%;">City: Bangalore<br>Pincode: 560016<br>Total Waste: 14000</div>`)[0];
+                popup_0335f778e1951d22c7c329b1042b70e9.setContent(html_9d41606b8c0d985dfbb9d1868671f6b9);
+            
+        
+
+        circle_marker_c3c77de7e325d692e70508a1c7455264.bindPopup(popup_0335f778e1951d22c7c329b1042b70e9)
+        ;
+
+        
+    
+    
+            var circle_marker_26e89879c5e7ce277be88161cfb12f35 = L.circleMarker(
+                [21.1916964, -101.6604407],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.303213909378293, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_a8c8dd26f11678e430a4b456aa13423f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9fba1e23140063d410d3252d5e3a8ead = $(`<div id="html_9fba1e23140063d410d3252d5e3a8ead" style="width: 100.0%; height: 100.0%;">City: Bangalore<br>Pincode: 560017<br>Total Waste: 14126</div>`)[0];
+                popup_a8c8dd26f11678e430a4b456aa13423f.setContent(html_9fba1e23140063d410d3252d5e3a8ead);
+            
+        
+
+        circle_marker_26e89879c5e7ce277be88161cfb12f35.bindPopup(popup_a8c8dd26f11678e430a4b456aa13423f)
+        ;
+
+        
+    
+    
+            var circle_marker_bf5f8ff15f2911ec4a3e1f61c6942e46 = L.circleMarker(
+                [21.1916964, -101.6604407],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.48959430979979, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_0664cd64cb54527d433a1b9881e13c06 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_668596a6c1dc4c1cf7f6695b71e4e923 = $(`<div id="html_668596a6c1dc4c1cf7f6695b71e4e923" style="width: 100.0%; height: 100.0%;">City: Bangalore<br>Pincode: 560018<br>Total Waste: 14409</div>`)[0];
+                popup_0664cd64cb54527d433a1b9881e13c06.setContent(html_668596a6c1dc4c1cf7f6695b71e4e923);
+            
+        
+
+        circle_marker_bf5f8ff15f2911ec4a3e1f61c6942e46.bindPopup(popup_0664cd64cb54527d433a1b9881e13c06)
+        ;
+
+        
+    
+    
+            var circle_marker_dfc001f0a3495dbd86b18ab37caaa665 = L.circleMarker(
+                [21.1916964, -101.6604407],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.58904109589041, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_3d51b2189bf000d5ca1fdfe243041937 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d068b553e717e11d044bd079c575174 = $(`<div id="html_3d068b553e717e11d044bd079c575174" style="width: 100.0%; height: 100.0%;">City: Bangalore<br>Pincode: 560019<br>Total Waste: 14560</div>`)[0];
+                popup_3d51b2189bf000d5ca1fdfe243041937.setContent(html_3d068b553e717e11d044bd079c575174);
+            
+        
+
+        circle_marker_dfc001f0a3495dbd86b18ab37caaa665.bindPopup(popup_3d51b2189bf000d5ca1fdfe243041937)
+        ;
+
+        
+    
+    
+            var circle_marker_70283a7348e34eb3394917effe644088 = L.circleMarker(
+                [21.1916964, -101.6604407],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.481691253951528, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_433a10054ce78cf8bb336bee5ab76555 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_474e1fc84d44035fb3620705ed320af2 = $(`<div id="html_474e1fc84d44035fb3620705ed320af2" style="width: 100.0%; height: 100.0%;">City: Bangalore<br>Pincode: 560020<br>Total Waste: 14397</div>`)[0];
+                popup_433a10054ce78cf8bb336bee5ab76555.setContent(html_474e1fc84d44035fb3620705ed320af2);
+            
+        
+
+        circle_marker_70283a7348e34eb3394917effe644088.bindPopup(popup_433a10054ce78cf8bb336bee5ab76555)
+        ;
+
+        
+    
+    
+            var circle_marker_e84244a5c75ec6d1fd44d84e1cf20f31 = L.circleMarker(
+                [13.204477, 80.3208609],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.709562697576397, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_aad88ef72cbe066a0ec43d8055342bb5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92b461fae53aa49914f89c71de5332ae = $(`<div id="html_92b461fae53aa49914f89c71de5332ae" style="width: 100.0%; height: 100.0%;">City: Chennai<br>Pincode: 600001<br>Total Waste: 14743</div>`)[0];
+                popup_aad88ef72cbe066a0ec43d8055342bb5.setContent(html_92b461fae53aa49914f89c71de5332ae);
+            
+        
+
+        circle_marker_e84244a5c75ec6d1fd44d84e1cf20f31.bindPopup(popup_aad88ef72cbe066a0ec43d8055342bb5)
+        ;
+
+        
+    
+    
+            var circle_marker_8aed5e80c5c0b0c87827c8b78be9c9f3 = L.circleMarker(
+                [13.204477, 80.3208609],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.708245521601686, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_c2bba728a9b995b14076a8eb073a5535 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_157e71192410bfb9a6d8368d0506e9ea = $(`<div id="html_157e71192410bfb9a6d8368d0506e9ea" style="width: 100.0%; height: 100.0%;">City: Chennai<br>Pincode: 600002<br>Total Waste: 14741</div>`)[0];
+                popup_c2bba728a9b995b14076a8eb073a5535.setContent(html_157e71192410bfb9a6d8368d0506e9ea);
+            
+        
+
+        circle_marker_8aed5e80c5c0b0c87827c8b78be9c9f3.bindPopup(popup_c2bba728a9b995b14076a8eb073a5535)
+        ;
+
+        
+    
+    
+            var circle_marker_0ecf77d13fe3d28347b489a423c4a11f = L.circleMarker(
+                [13.204477, 80.3208609],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.062170706006324, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_7e8b48c58495809b22665048f2771d06 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_893c580d9613df81d44a353ee397d312 = $(`<div id="html_893c580d9613df81d44a353ee397d312" style="width: 100.0%; height: 100.0%;">City: Chennai<br>Pincode: 600003<br>Total Waste: 13760</div>`)[0];
+                popup_7e8b48c58495809b22665048f2771d06.setContent(html_893c580d9613df81d44a353ee397d312);
+            
+        
+
+        circle_marker_0ecf77d13fe3d28347b489a423c4a11f.bindPopup(popup_7e8b48c58495809b22665048f2771d06)
+        ;
+
+        
+    
+    
+            var circle_marker_18cafcdacf8ef6150a0bc86f31e0ba04 = L.circleMarker(
+                [13.204477, 80.3208609],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.660827186512117, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_69f08a0724517621790b95e690a56ce6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a72b3c89412417ac1c3f2e6c56059ed6 = $(`<div id="html_a72b3c89412417ac1c3f2e6c56059ed6" style="width: 100.0%; height: 100.0%;">City: Chennai<br>Pincode: 600004<br>Total Waste: 14669</div>`)[0];
+                popup_69f08a0724517621790b95e690a56ce6.setContent(html_a72b3c89412417ac1c3f2e6c56059ed6);
+            
+        
+
+        circle_marker_18cafcdacf8ef6150a0bc86f31e0ba04.bindPopup(popup_69f08a0724517621790b95e690a56ce6)
+        ;
+
+        
+    
+    
+            var circle_marker_235cff8d31eb11359acd7f6e1417c6bc = L.circleMarker(
+                [13.204477, 80.3208609],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.421759747102213, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_c764c5e74721e116f0aea2112796af60 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ed5da01fd93c14dd25c6f92d776b8a64 = $(`<div id="html_ed5da01fd93c14dd25c6f92d776b8a64" style="width: 100.0%; height: 100.0%;">City: Chennai<br>Pincode: 600005<br>Total Waste: 14306</div>`)[0];
+                popup_c764c5e74721e116f0aea2112796af60.setContent(html_ed5da01fd93c14dd25c6f92d776b8a64);
+            
+        
+
+        circle_marker_235cff8d31eb11359acd7f6e1417c6bc.bindPopup(popup_c764c5e74721e116f0aea2112796af60)
+        ;
+
+        
+    
+    
+            var circle_marker_5b4ca6cc00991893028a4de06f3784a0 = L.circleMarker(
+                [13.204477, 80.3208609],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.438883034773445, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_9672b37b3158ef19530d09f7f0bdadeb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d9636c36c6f067ebd809117d6d86fda = $(`<div id="html_6d9636c36c6f067ebd809117d6d86fda" style="width: 100.0%; height: 100.0%;">City: Chennai<br>Pincode: 600006<br>Total Waste: 14332</div>`)[0];
+                popup_9672b37b3158ef19530d09f7f0bdadeb.setContent(html_6d9636c36c6f067ebd809117d6d86fda);
+            
+        
+
+        circle_marker_5b4ca6cc00991893028a4de06f3784a0.bindPopup(popup_9672b37b3158ef19530d09f7f0bdadeb)
+        ;
+
+        
+    
+    
+            var circle_marker_b0ae0f881b21067722954428dec7c962 = L.circleMarker(
+                [13.204477, 80.3208609],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.534378292939937, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_1344595cf0400da63943f6fe5e2e70e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d9cfb0d2dc4a38955d9e86a087499cf = $(`<div id="html_4d9cfb0d2dc4a38955d9e86a087499cf" style="width: 100.0%; height: 100.0%;">City: Chennai<br>Pincode: 600007<br>Total Waste: 14477</div>`)[0];
+                popup_1344595cf0400da63943f6fe5e2e70e5.setContent(html_4d9cfb0d2dc4a38955d9e86a087499cf);
+            
+        
+
+        circle_marker_b0ae0f881b21067722954428dec7c962.bindPopup(popup_1344595cf0400da63943f6fe5e2e70e5)
+        ;
+
+        
+    
+    
+            var circle_marker_41c348fb1a188edc7ee27a38a4c59f86 = L.circleMarker(
+                [13.204477, 80.3208609],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.669388830347735, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_e8dc6b7b7474f3faa8f2bded794a91e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0163a5d009d1e5b574d460caf53ee690 = $(`<div id="html_0163a5d009d1e5b574d460caf53ee690" style="width: 100.0%; height: 100.0%;">City: Chennai<br>Pincode: 600008<br>Total Waste: 14682</div>`)[0];
+                popup_e8dc6b7b7474f3faa8f2bded794a91e0.setContent(html_0163a5d009d1e5b574d460caf53ee690);
+            
+        
+
+        circle_marker_41c348fb1a188edc7ee27a38a4c59f86.bindPopup(popup_e8dc6b7b7474f3faa8f2bded794a91e0)
+        ;
+
+        
+    
+    
+            var circle_marker_06a6a29a37bb2fd1f488d7fc5a728287 = L.circleMarker(
+                [13.204477, 80.3208609],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.563356164383562, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_49b6d8c87c53cb1a9376a8f7a949963c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_393d55bdaa9b1ceb6062455e9aa2b384 = $(`<div id="html_393d55bdaa9b1ceb6062455e9aa2b384" style="width: 100.0%; height: 100.0%;">City: Chennai<br>Pincode: 600009<br>Total Waste: 14521</div>`)[0];
+                popup_49b6d8c87c53cb1a9376a8f7a949963c.setContent(html_393d55bdaa9b1ceb6062455e9aa2b384);
+            
+        
+
+        circle_marker_06a6a29a37bb2fd1f488d7fc5a728287.bindPopup(popup_49b6d8c87c53cb1a9376a8f7a949963c)
+        ;
+
+        
+    
+    
+            var circle_marker_7d0d068ae6a60cd25f7f8a437d3a05d0 = L.circleMarker(
+                [13.204477, 80.3208609],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.692439409905164, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_f6f30ac7633d6e02725df53d82813f45 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d42a028b092ed29d43e3f1d289ccd07 = $(`<div id="html_6d42a028b092ed29d43e3f1d289ccd07" style="width: 100.0%; height: 100.0%;">City: Chennai<br>Pincode: 600010<br>Total Waste: 14717</div>`)[0];
+                popup_f6f30ac7633d6e02725df53d82813f45.setContent(html_6d42a028b092ed29d43e3f1d289ccd07);
+            
+        
+
+        circle_marker_7d0d068ae6a60cd25f7f8a437d3a05d0.bindPopup(popup_f6f30ac7633d6e02725df53d82813f45)
+        ;
+
+        
+    
+    
+            var circle_marker_82f4ef0789d66b9479a10a1428e5625b = L.circleMarker(
+                [13.204477, 80.3208609],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.625922023182298, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_ff2c41f64053ff2f70b6ce944e42ca0c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8fea5ef923eff33d5cdc454b0e005c7d = $(`<div id="html_8fea5ef923eff33d5cdc454b0e005c7d" style="width: 100.0%; height: 100.0%;">City: Chennai<br>Pincode: 600011<br>Total Waste: 14616</div>`)[0];
+                popup_ff2c41f64053ff2f70b6ce944e42ca0c.setContent(html_8fea5ef923eff33d5cdc454b0e005c7d);
+            
+        
+
+        circle_marker_82f4ef0789d66b9479a10a1428e5625b.bindPopup(popup_ff2c41f64053ff2f70b6ce944e42ca0c)
+        ;
+
+        
+    
+    
+            var circle_marker_c0be8071584c646a45b06591a01bd37f = L.circleMarker(
+                [13.204477, 80.3208609],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.693097997892519, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_c0df6d66df8750d2466e00af5480bba1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c749149bd59526948e2a6c89dafdcdee = $(`<div id="html_c749149bd59526948e2a6c89dafdcdee" style="width: 100.0%; height: 100.0%;">City: Chennai<br>Pincode: 600012<br>Total Waste: 14718</div>`)[0];
+                popup_c0df6d66df8750d2466e00af5480bba1.setContent(html_c749149bd59526948e2a6c89dafdcdee);
+            
+        
+
+        circle_marker_c0be8071584c646a45b06591a01bd37f.bindPopup(popup_c0df6d66df8750d2466e00af5480bba1)
+        ;
+
+        
+    
+    
+            var circle_marker_1a71a7256b3cdec6adb0630c677de065 = L.circleMarker(
+                [13.204477, 80.3208609],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.375, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_08d7239c2227ca0df293d911b17c1cee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_59fcd8ef35a18adaff8a57e6ca5e63c7 = $(`<div id="html_59fcd8ef35a18adaff8a57e6ca5e63c7" style="width: 100.0%; height: 100.0%;">City: Chennai<br>Pincode: 600013<br>Total Waste: 14235</div>`)[0];
+                popup_08d7239c2227ca0df293d911b17c1cee.setContent(html_59fcd8ef35a18adaff8a57e6ca5e63c7);
+            
+        
+
+        circle_marker_1a71a7256b3cdec6adb0630c677de065.bindPopup(popup_08d7239c2227ca0df293d911b17c1cee)
+        ;
+
+        
+    
+    
+            var circle_marker_3eb2fb33994017af26aa7c529ca9e2f0 = L.circleMarker(
+                [13.204477, 80.3208609],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.522523709167546, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_0bdc542c998854f4513acf69fe899854 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_45c0c743c17ea44782ceb56050c42b0e = $(`<div id="html_45c0c743c17ea44782ceb56050c42b0e" style="width: 100.0%; height: 100.0%;">City: Chennai<br>Pincode: 600014<br>Total Waste: 14459</div>`)[0];
+                popup_0bdc542c998854f4513acf69fe899854.setContent(html_45c0c743c17ea44782ceb56050c42b0e);
+            
+        
+
+        circle_marker_3eb2fb33994017af26aa7c529ca9e2f0.bindPopup(popup_0bdc542c998854f4513acf69fe899854)
+        ;
+
+        
+    
+    
+            var circle_marker_48a762e8b917f140518add684c80b860 = L.circleMarker(
+                [13.204477, 80.3208609],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.891596417281349, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_0396f0807823373536e7cc50121b7c8a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b0b3b2c185a569248c0400524ea57dcd = $(`<div id="html_b0b3b2c185a569248c0400524ea57dcd" style="width: 100.0%; height: 100.0%;">City: Chennai<br>Pincode: 600015<br>Total Waste: 13501</div>`)[0];
+                popup_0396f0807823373536e7cc50121b7c8a.setContent(html_b0b3b2c185a569248c0400524ea57dcd);
+            
+        
+
+        circle_marker_48a762e8b917f140518add684c80b860.bindPopup(popup_0396f0807823373536e7cc50121b7c8a)
+        ;
+
+        
+    
+    
+            var circle_marker_178754e83bc2c9d6bf6882072b5c29c4 = L.circleMarker(
+                [13.204477, 80.3208609],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.677291886195995, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_1cd65745169d741231fbe01162c0a371 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a563759adc53fc61c463cb3d05b0e02 = $(`<div id="html_4a563759adc53fc61c463cb3d05b0e02" style="width: 100.0%; height: 100.0%;">City: Chennai<br>Pincode: 600016<br>Total Waste: 14694</div>`)[0];
+                popup_1cd65745169d741231fbe01162c0a371.setContent(html_4a563759adc53fc61c463cb3d05b0e02);
+            
+        
+
+        circle_marker_178754e83bc2c9d6bf6882072b5c29c4.bindPopup(popup_1cd65745169d741231fbe01162c0a371)
+        ;
+
+        
+    
+    
+            var circle_marker_27793924d56955fa2cd6c201a3b0af6d = L.circleMarker(
+                [13.204477, 80.3208609],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.518572181243414, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_137d24aa74ee1c7670d9d0acc51b9405 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7bab6d829ba70961c9ae41187286b4f2 = $(`<div id="html_7bab6d829ba70961c9ae41187286b4f2" style="width: 100.0%; height: 100.0%;">City: Chennai<br>Pincode: 600017<br>Total Waste: 14453</div>`)[0];
+                popup_137d24aa74ee1c7670d9d0acc51b9405.setContent(html_7bab6d829ba70961c9ae41187286b4f2);
+            
+        
+
+        circle_marker_27793924d56955fa2cd6c201a3b0af6d.bindPopup(popup_137d24aa74ee1c7670d9d0acc51b9405)
+        ;
+
+        
+    
+    
+            var circle_marker_76e3e7158b87ac1721bee3af6949e1fe = L.circleMarker(
+                [13.204477, 80.3208609],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.297945205479452, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_df6c5521f96197b24d30086294a7952c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ac6fa31ab4dbf220a99f122a48426e3 = $(`<div id="html_1ac6fa31ab4dbf220a99f122a48426e3" style="width: 100.0%; height: 100.0%;">City: Chennai<br>Pincode: 600018<br>Total Waste: 14118</div>`)[0];
+                popup_df6c5521f96197b24d30086294a7952c.setContent(html_1ac6fa31ab4dbf220a99f122a48426e3);
+            
+        
+
+        circle_marker_76e3e7158b87ac1721bee3af6949e1fe.bindPopup(popup_df6c5521f96197b24d30086294a7952c)
+        ;
+
+        
+    
+    
+            var circle_marker_0200dcfbee39bb5bf275e674343f342e = L.circleMarker(
+                [13.204477, 80.3208609],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.46127502634352, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_00e9a28819959c4f69b87f97ecfc058a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f850a78489b49f2fb15f99fb3be46e0d = $(`<div id="html_f850a78489b49f2fb15f99fb3be46e0d" style="width: 100.0%; height: 100.0%;">City: Chennai<br>Pincode: 600019<br>Total Waste: 14366</div>`)[0];
+                popup_00e9a28819959c4f69b87f97ecfc058a.setContent(html_f850a78489b49f2fb15f99fb3be46e0d);
+            
+        
+
+        circle_marker_0200dcfbee39bb5bf275e674343f342e.bindPopup(popup_00e9a28819959c4f69b87f97ecfc058a)
+        ;
+
+        
+    
+    
+            var circle_marker_9928b43f455449562a197ceadd9466ce = L.circleMarker(
+                [1.3064015, 103.8515792],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.171496311907271, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_c1e939fdf7428b84d168ac71a67890de = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88ea22d4e1e82c99fc166e728cd2d03c = $(`<div id="html_88ea22d4e1e82c99fc166e728cd2d03c" style="width: 100.0%; height: 100.0%;">City: Chennai<br>Pincode: 600020<br>Total Waste: 13926</div>`)[0];
+                popup_c1e939fdf7428b84d168ac71a67890de.setContent(html_88ea22d4e1e82c99fc166e728cd2d03c);
+            
+        
+
+        circle_marker_9928b43f455449562a197ceadd9466ce.bindPopup(popup_c1e939fdf7428b84d168ac71a67890de)
+        ;
+
+        
+    
+    
+            var circle_marker_b5379590b9bdc695325bd14eccc1a035 = L.circleMarker(
+                [1.3083344, 103.8509577],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.593651211801896, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_5e5f910dc63c2724c90e89e3c410cf22 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4249f0d0e75092cd84bfed99ca1fc84c = $(`<div id="html_4249f0d0e75092cd84bfed99ca1fc84c" style="width: 100.0%; height: 100.0%;">City: Kolkata<br>Pincode: 700001<br>Total Waste: 14567</div>`)[0];
+                popup_5e5f910dc63c2724c90e89e3c410cf22.setContent(html_4249f0d0e75092cd84bfed99ca1fc84c);
+            
+        
+
+        circle_marker_b5379590b9bdc695325bd14eccc1a035.bindPopup(popup_5e5f910dc63c2724c90e89e3c410cf22)
+        ;
+
+        
+    
+    
+            var circle_marker_7d73aa76bd59a8171a720182d0a23867 = L.circleMarker(
+                [1.3083344, 103.8509577],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.50013171759747, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_7360653238c00a1dabda358132e7a860 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e1861e1da23aea1a9ed4e7e4f5d7d37d = $(`<div id="html_e1861e1da23aea1a9ed4e7e4f5d7d37d" style="width: 100.0%; height: 100.0%;">City: Kolkata<br>Pincode: 700002<br>Total Waste: 14425</div>`)[0];
+                popup_7360653238c00a1dabda358132e7a860.setContent(html_e1861e1da23aea1a9ed4e7e4f5d7d37d);
+            
+        
+
+        circle_marker_7d73aa76bd59a8171a720182d0a23867.bindPopup(popup_7360653238c00a1dabda358132e7a860)
+        ;
+
+        
+    
+    
+            var circle_marker_68a9848cf7b136091f9978fbcd21639c = L.circleMarker(
+                [1.3083344, 103.8509577],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.190595363540568, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_49266d08ac77a989760ce8b2dc856b86 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_adf8168eebc2fb333c1955c57a609a48 = $(`<div id="html_adf8168eebc2fb333c1955c57a609a48" style="width: 100.0%; height: 100.0%;">City: Kolkata<br>Pincode: 700003<br>Total Waste: 13955</div>`)[0];
+                popup_49266d08ac77a989760ce8b2dc856b86.setContent(html_adf8168eebc2fb333c1955c57a609a48);
+            
+        
+
+        circle_marker_68a9848cf7b136091f9978fbcd21639c.bindPopup(popup_49266d08ac77a989760ce8b2dc856b86)
+        ;
+
+        
+    
+    
+            var circle_marker_ee147aafd2584f2b035c37ff47d8f27f = L.circleMarker(
+                [1.3083344, 103.8509577],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.537671232876711, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_284db706b441646a940abde3944f59e4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c9eb6ff3d94d86b562c861e78d54a84c = $(`<div id="html_c9eb6ff3d94d86b562c861e78d54a84c" style="width: 100.0%; height: 100.0%;">City: Kolkata<br>Pincode: 700004<br>Total Waste: 14482</div>`)[0];
+                popup_284db706b441646a940abde3944f59e4.setContent(html_c9eb6ff3d94d86b562c861e78d54a84c);
+            
+        
+
+        circle_marker_ee147aafd2584f2b035c37ff47d8f27f.bindPopup(popup_284db706b441646a940abde3944f59e4)
+        ;
+
+        
+    
+    
+            var circle_marker_b222b21f91835067658fdf6e2eafc6d3 = L.circleMarker(
+                [1.3083344, 103.8509577],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.830084299262381, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_6d4a9fefb3a4a60528dab52d9bc13f3a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_42c9b6684b7f721153ca1d1f266d1505 = $(`<div id="html_42c9b6684b7f721153ca1d1f266d1505" style="width: 100.0%; height: 100.0%;">City: Kolkata<br>Pincode: 700005<br>Total Waste: 14926</div>`)[0];
+                popup_6d4a9fefb3a4a60528dab52d9bc13f3a.setContent(html_42c9b6684b7f721153ca1d1f266d1505);
+            
+        
+
+        circle_marker_b222b21f91835067658fdf6e2eafc6d3.bindPopup(popup_6d4a9fefb3a4a60528dab52d9bc13f3a)
+        ;
+
+        
+    
+    
+            var circle_marker_e72b23394f9b34b2b0ec4c8c4dc652cb = L.circleMarker(
+                [1.3083344, 103.8509577],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.158324552160169, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_07d6ab12d36fc8a45a945862861022d6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_25f5dbf3dab2633e54baae3a4630cff6 = $(`<div id="html_25f5dbf3dab2633e54baae3a4630cff6" style="width: 100.0%; height: 100.0%;">City: Kolkata<br>Pincode: 700006<br>Total Waste: 13906</div>`)[0];
+                popup_07d6ab12d36fc8a45a945862861022d6.setContent(html_25f5dbf3dab2633e54baae3a4630cff6);
+            
+        
+
+        circle_marker_e72b23394f9b34b2b0ec4c8c4dc652cb.bindPopup(popup_07d6ab12d36fc8a45a945862861022d6)
+        ;
+
+        
+    
+    
+            var circle_marker_85e6d282c84e8de3cf86c890d6241c9f = L.circleMarker(
+                [1.3083344, 103.8509577],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.0, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_5755f795bb5b277bf254084fdf80741e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db4f3b03b60df5a219516b60453f0ffa = $(`<div id="html_db4f3b03b60df5a219516b60453f0ffa" style="width: 100.0%; height: 100.0%;">City: Kolkata<br>Pincode: 700007<br>Total Waste: 15184</div>`)[0];
+                popup_5755f795bb5b277bf254084fdf80741e.setContent(html_db4f3b03b60df5a219516b60453f0ffa);
+            
+        
+
+        circle_marker_85e6d282c84e8de3cf86c890d6241c9f.bindPopup(popup_5755f795bb5b277bf254084fdf80741e)
+        ;
+
+        
+    
+    
+            var circle_marker_ef58476c1b2195a2dad450481e4dfce2 = L.circleMarker(
+                [1.3083344, 103.8509577],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.28609062170706, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_099efd3a1345b4bb5bcb84ec5d1919fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1ef3447861db412ed73d721ced0085d = $(`<div id="html_a1ef3447861db412ed73d721ced0085d" style="width: 100.0%; height: 100.0%;">City: Kolkata<br>Pincode: 700008<br>Total Waste: 14100</div>`)[0];
+                popup_099efd3a1345b4bb5bcb84ec5d1919fd.setContent(html_a1ef3447861db412ed73d721ced0085d);
+            
+        
+
+        circle_marker_ef58476c1b2195a2dad450481e4dfce2.bindPopup(popup_099efd3a1345b4bb5bcb84ec5d1919fd)
+        ;
+
+        
+    
+    
+            var circle_marker_5cc842bb4779f02ddbed7b761c12a730 = L.circleMarker(
+                [1.3083344, 103.8509577],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.148445732349842, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_fe4b090ff7abfc784f15277085d484ef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dbbffb833d31ff5f89b03da6ee03fc61 = $(`<div id="html_dbbffb833d31ff5f89b03da6ee03fc61" style="width: 100.0%; height: 100.0%;">City: Kolkata<br>Pincode: 700009<br>Total Waste: 13891</div>`)[0];
+                popup_fe4b090ff7abfc784f15277085d484ef.setContent(html_dbbffb833d31ff5f89b03da6ee03fc61);
+            
+        
+
+        circle_marker_5cc842bb4779f02ddbed7b761c12a730.bindPopup(popup_fe4b090ff7abfc784f15277085d484ef)
+        ;
+
+        
+    
+    
+            var circle_marker_fe3090c8a77a3d05fbafa9cf17e22286 = L.circleMarker(
+                [1.3083344, 103.8509577],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.580479452054794, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_04b4bf8b435699eb9646a4a37744ee30 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a91e5fd73373fe3cba390854539ff6f = $(`<div id="html_3a91e5fd73373fe3cba390854539ff6f" style="width: 100.0%; height: 100.0%;">City: Kolkata<br>Pincode: 700010<br>Total Waste: 14547</div>`)[0];
+                popup_04b4bf8b435699eb9646a4a37744ee30.setContent(html_3a91e5fd73373fe3cba390854539ff6f);
+            
+        
+
+        circle_marker_fe3090c8a77a3d05fbafa9cf17e22286.bindPopup(popup_04b4bf8b435699eb9646a4a37744ee30)
+        ;
+
+        
+    
+    
+            var circle_marker_16f2bb78d3d2dd413a2a848212682090 = L.circleMarker(
+                [1.3083344, 103.8509577],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.229452054794521, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_242caa3a4a7c1ea388c15f8c2ae8579f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b232215847ff1e3dd7d7f61fe11e7fe7 = $(`<div id="html_b232215847ff1e3dd7d7f61fe11e7fe7" style="width: 100.0%; height: 100.0%;">City: Kolkata<br>Pincode: 700011<br>Total Waste: 14014</div>`)[0];
+                popup_242caa3a4a7c1ea388c15f8c2ae8579f.setContent(html_b232215847ff1e3dd7d7f61fe11e7fe7);
+            
+        
+
+        circle_marker_16f2bb78d3d2dd413a2a848212682090.bindPopup(popup_242caa3a4a7c1ea388c15f8c2ae8579f)
+        ;
+
+        
+    
+    
+            var circle_marker_ebb5d06c5fbcf5d2ffdcf34e2528b92f = L.circleMarker(
+                [1.3083344, 103.8509577],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.77081138040042, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_c761520f7157cdfec4a828c777419a2f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c12c8a2afa5ca02f537c1cbdc2895294 = $(`<div id="html_c12c8a2afa5ca02f537c1cbdc2895294" style="width: 100.0%; height: 100.0%;">City: Kolkata<br>Pincode: 700012<br>Total Waste: 14836</div>`)[0];
+                popup_c761520f7157cdfec4a828c777419a2f.setContent(html_c12c8a2afa5ca02f537c1cbdc2895294);
+            
+        
+
+        circle_marker_ebb5d06c5fbcf5d2ffdcf34e2528b92f.bindPopup(popup_c761520f7157cdfec4a828c777419a2f)
+        ;
+
+        
+    
+    
+            var circle_marker_c637869cacbc6157b52b4193ba61ff93 = L.circleMarker(
+                [1.3083344, 103.8509577],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.146469968387777, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_a7fd7d62f9924415e3592f5d523a0192 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d982f5fc0d0a7924bb04370481244e0 = $(`<div id="html_7d982f5fc0d0a7924bb04370481244e0" style="width: 100.0%; height: 100.0%;">City: Kolkata<br>Pincode: 700013<br>Total Waste: 13888</div>`)[0];
+                popup_a7fd7d62f9924415e3592f5d523a0192.setContent(html_7d982f5fc0d0a7924bb04370481244e0);
+            
+        
+
+        circle_marker_c637869cacbc6157b52b4193ba61ff93.bindPopup(popup_a7fd7d62f9924415e3592f5d523a0192)
+        ;
+
+        
+    
+    
+            var circle_marker_7ef11591eed1ffb6d776fd1d2f37efe9 = L.circleMarker(
+                [1.3083344, 103.8509577],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.544915700737619, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_c6d5793a18f58d7430d2168b42488bd7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b439ad54020945497aa87ab5b8c2556 = $(`<div id="html_9b439ad54020945497aa87ab5b8c2556" style="width: 100.0%; height: 100.0%;">City: Kolkata<br>Pincode: 700014<br>Total Waste: 14493</div>`)[0];
+                popup_c6d5793a18f58d7430d2168b42488bd7.setContent(html_9b439ad54020945497aa87ab5b8c2556);
+            
+        
+
+        circle_marker_7ef11591eed1ffb6d776fd1d2f37efe9.bindPopup(popup_c6d5793a18f58d7430d2168b42488bd7)
+        ;
+
+        
+    
+    
+            var circle_marker_e90f570917c5359a8c4386ef130d62de = L.circleMarker(
+                [1.3083344, 103.8509577],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.505400421496311, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_1e08a1abb85e134debc583fa40637935 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e49bb3938609f01deb9991baf205905e = $(`<div id="html_e49bb3938609f01deb9991baf205905e" style="width: 100.0%; height: 100.0%;">City: Kolkata<br>Pincode: 700015<br>Total Waste: 14433</div>`)[0];
+                popup_1e08a1abb85e134debc583fa40637935.setContent(html_e49bb3938609f01deb9991baf205905e);
+            
+        
+
+        circle_marker_e90f570917c5359a8c4386ef130d62de.bindPopup(popup_1e08a1abb85e134debc583fa40637935)
+        ;
+
+        
+    
+    
+            var circle_marker_3b5750f32fa2650e5aab00918b47d960 = L.circleMarker(
+                [1.3083344, 103.8509577],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.688487881981033, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_78a274d4de16be8dec99c5e854ee40ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5211806f1a6b2b3b32fdd8831f1fefe5 = $(`<div id="html_5211806f1a6b2b3b32fdd8831f1fefe5" style="width: 100.0%; height: 100.0%;">City: Kolkata<br>Pincode: 700016<br>Total Waste: 14711</div>`)[0];
+                popup_78a274d4de16be8dec99c5e854ee40ae.setContent(html_5211806f1a6b2b3b32fdd8831f1fefe5);
+            
+        
+
+        circle_marker_3b5750f32fa2650e5aab00918b47d960.bindPopup(popup_78a274d4de16be8dec99c5e854ee40ae)
+        ;
+
+        
+    
+    
+            var circle_marker_6919732ef926f9477e6174f6b96e3860 = L.circleMarker(
+                [1.3083344, 103.8509577],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.116174920969442, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_39f9129acc209b99d874b989d22cb033 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15893caa2f75808d25e791d4267203e8 = $(`<div id="html_15893caa2f75808d25e791d4267203e8" style="width: 100.0%; height: 100.0%;">City: Kolkata<br>Pincode: 700017<br>Total Waste: 13842</div>`)[0];
+                popup_39f9129acc209b99d874b989d22cb033.setContent(html_15893caa2f75808d25e791d4267203e8);
+            
+        
+
+        circle_marker_6919732ef926f9477e6174f6b96e3860.bindPopup(popup_39f9129acc209b99d874b989d22cb033)
+        ;
+
+        
+    
+    
+            var circle_marker_468651394f173f630ba1579ed2ccd13b = L.circleMarker(
+                [1.3083344, 103.8509577],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.570600632244467, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_ad2b1fa1463307be0abd15f05f4d69e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_463ddbb4bf21186afd260afc27cd374c = $(`<div id="html_463ddbb4bf21186afd260afc27cd374c" style="width: 100.0%; height: 100.0%;">City: Kolkata<br>Pincode: 700018<br>Total Waste: 14532</div>`)[0];
+                popup_ad2b1fa1463307be0abd15f05f4d69e3.setContent(html_463ddbb4bf21186afd260afc27cd374c);
+            
+        
+
+        circle_marker_468651394f173f630ba1579ed2ccd13b.bindPopup(popup_ad2b1fa1463307be0abd15f05f4d69e3)
+        ;
+
+        
+    
+    
+            var circle_marker_728ed952b6ad3392981c77a20d268ca1 = L.circleMarker(
+                [1.3083344, 103.8509577],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.31309272918862, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_86aa9fa67fe1d578b52767387b3f72df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eedf3de9617d711deac3d55627684549 = $(`<div id="html_eedf3de9617d711deac3d55627684549" style="width: 100.0%; height: 100.0%;">City: Kolkata<br>Pincode: 700019<br>Total Waste: 14141</div>`)[0];
+                popup_86aa9fa67fe1d578b52767387b3f72df.setContent(html_eedf3de9617d711deac3d55627684549);
+            
+        
+
+        circle_marker_728ed952b6ad3392981c77a20d268ca1.bindPopup(popup_86aa9fa67fe1d578b52767387b3f72df)
+        ;
+
+        
+    
+    
+            var circle_marker_256c743b762b1d4033acd80224945aa1 = L.circleMarker(
+                [1.3083344, 103.8509577],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.417149631190727, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_26d14040870855b043177e14d7230356);
+        
+    
+        var popup_3cc2a3361c0f1b712c0e36e2da78706b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_72132b653a849b45404fa6ebfd969168 = $(`<div id="html_72132b653a849b45404fa6ebfd969168" style="width: 100.0%; height: 100.0%;">City: Kolkata<br>Pincode: 700020<br>Total Waste: 14299</div>`)[0];
+                popup_3cc2a3361c0f1b712c0e36e2da78706b.setContent(html_72132b653a849b45404fa6ebfd969168);
+            
+        
+
+        circle_marker_256c743b762b1d4033acd80224945aa1.bindPopup(popup_3cc2a3361c0f1b712c0e36e2da78706b)
+        ;
+
+        
+    
+</script>
+</html>

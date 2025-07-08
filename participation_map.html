@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d3719860208cb572d2473fcef2d4c507 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d3719860208cb572d2473fcef2d4c507" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d3719860208cb572d2473fcef2d4c507 = L.map(
+                "map_d3719860208cb572d2473fcef2d4c507",
+                {
+                    center: [22.9734, 78.6569],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a02417a27fdda6fdcc23e6357cb53271 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d3719860208cb572d2473fcef2d4c507);
+        
+    
+            var circle_marker_c9d8549901d3be9c84157d96889fbb27 = L.circleMarker(
+                [12.9881567, 77.6226],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.8493, "stroke": true, "weight": 3}
+            ).addTo(map_d3719860208cb572d2473fcef2d4c507);
+        
+    
+        var popup_824607bf898c185d539ebb5f4650471d = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_a5d017cccb3e6d0fccd27ebc4318a72c = $(`<div id="html_a5d017cccb3e6d0fccd27ebc4318a72c" style="width: 100.0%; height: 100.0%;">         <b>City:</b> bangalore<br>         <b>Avg Participation:</b> 49.25%<br>         <b>Max Participation:</b> 98.4%<br>         <b>Min Participation:</b> 15.1%         </div>`)[0];
+                popup_824607bf898c185d539ebb5f4650471d.setContent(html_a5d017cccb3e6d0fccd27ebc4318a72c);
+            
+        
+
+        circle_marker_c9d8549901d3be9c84157d96889fbb27.bindPopup(popup_824607bf898c185d539ebb5f4650471d)
+        ;
+
+        
+    
+    
+            var circle_marker_ab14ddd5ae9fd5f762adc5d60a491b3b = L.circleMarker(
+                [13.0836939, 80.270186],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.00525, "stroke": true, "weight": 3}
+            ).addTo(map_d3719860208cb572d2473fcef2d4c507);
+        
+    
+        var popup_0a14ce6f093e4adbae2c9ce815a38fa9 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_d658ff9226784d05b67ec6978a53ba83 = $(`<div id="html_d658ff9226784d05b67ec6978a53ba83" style="width: 100.0%; height: 100.0%;">         <b>City:</b> Chennai<br>         <b>Avg Participation:</b> 50.03%<br>         <b>Max Participation:</b> 99.8%<br>         <b>Min Participation:</b> 15.2%         </div>`)[0];
+                popup_0a14ce6f093e4adbae2c9ce815a38fa9.setContent(html_d658ff9226784d05b67ec6978a53ba83);
+            
+        
+
+        circle_marker_ab14ddd5ae9fd5f762adc5d60a491b3b.bindPopup(popup_0a14ce6f093e4adbae2c9ce815a38fa9)
+        ;
+
+        
+    
+    
+            var circle_marker_09e32dca4312def1e72235f696d457e5 = L.circleMarker(
+                [28.6273928, 77.1716954],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.900015999999999, "stroke": true, "weight": 3}
+            ).addTo(map_d3719860208cb572d2473fcef2d4c507);
+        
+    
+        var popup_23a62aec249cef88bc403c19ebd06730 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_0934f7ff9091eb8b675038907ebd58db = $(`<div id="html_0934f7ff9091eb8b675038907ebd58db" style="width: 100.0%; height: 100.0%;">         <b>City:</b> Delhi<br>         <b>Avg Participation:</b> 49.50%<br>         <b>Max Participation:</b> 100.0%<br>         <b>Min Participation:</b> 15.2%         </div>`)[0];
+                popup_23a62aec249cef88bc403c19ebd06730.setContent(html_0934f7ff9091eb8b675038907ebd58db);
+            
+        
+
+        circle_marker_09e32dca4312def1e72235f696d457e5.bindPopup(popup_23a62aec249cef88bc403c19ebd06730)
+        ;
+
+        
+    
+    
+            var circle_marker_29ec9baca6563d5a79e3856a3d62a4ce = L.circleMarker(
+                [17.360589, 78.4740613],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.111416, "stroke": true, "weight": 3}
+            ).addTo(map_d3719860208cb572d2473fcef2d4c507);
+        
+    
+        var popup_32ae7dbc6b7314088c1da9f80fbe6af2 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_a4231c7793b90e4056e74d5750b5bde5 = $(`<div id="html_a4231c7793b90e4056e74d5750b5bde5" style="width: 100.0%; height: 100.0%;">         <b>City:</b> Hyderabad <br>         <b>Avg Participation:</b> 50.56%<br>         <b>Max Participation:</b> 99.7%<br>         <b>Min Participation:</b> 15.4%         </div>`)[0];
+                popup_32ae7dbc6b7314088c1da9f80fbe6af2.setContent(html_a4231c7793b90e4056e74d5750b5bde5);
+            
+        
+
+        circle_marker_29ec9baca6563d5a79e3856a3d62a4ce.bindPopup(popup_32ae7dbc6b7314088c1da9f80fbe6af2)
+        ;
+
+        
+    
+    
+            var circle_marker_c34fc5b82523c287e6431585e3c93333 = L.circleMarker(
+                [22.5726459, 88.3638953],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.13595, "stroke": true, "weight": 3}
+            ).addTo(map_d3719860208cb572d2473fcef2d4c507);
+        
+    
+        var popup_2856a7f9398feae855e7865d2fbfd474 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_0b34f0ca24ea036072537476a60818c9 = $(`<div id="html_0b34f0ca24ea036072537476a60818c9" style="width: 100.0%; height: 100.0%;">         <b>City:</b> Kolkata<br>         <b>Avg Participation:</b> 50.68%<br>         <b>Max Participation:</b> 100.0%<br>         <b>Min Participation:</b> 15.1%         </div>`)[0];
+                popup_2856a7f9398feae855e7865d2fbfd474.setContent(html_0b34f0ca24ea036072537476a60818c9);
+            
+        
+
+        circle_marker_c34fc5b82523c287e6431585e3c93333.bindPopup(popup_2856a7f9398feae855e7865d2fbfd474)
+        ;
+
+        
+    
+    
+            var circle_marker_8b3acbe8a0e34e97f829d8134ec7d0b4 = L.circleMarker(
+                [18.5213738, 73.8545071],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.071434, "stroke": true, "weight": 3}
+            ).addTo(map_d3719860208cb572d2473fcef2d4c507);
+        
+    
+        var popup_0165950934fee9379a0a68c827f21003 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_32d55117c3697e1047a4fbbeeb949116 = $(`<div id="html_32d55117c3697e1047a4fbbeeb949116" style="width: 100.0%; height: 100.0%;">         <b>City:</b> Pune<br>         <b>Avg Participation:</b> 50.36%<br>         <b>Max Participation:</b> 99.3%<br>         <b>Min Participation:</b> 15.0%         </div>`)[0];
+                popup_0165950934fee9379a0a68c827f21003.setContent(html_32d55117c3697e1047a4fbbeeb949116);
+            
+        
+
+        circle_marker_8b3acbe8a0e34e97f829d8134ec7d0b4.bindPopup(popup_0165950934fee9379a0a68c827f21003)
+        ;
+
+        
+    
+</script>
+</html>
